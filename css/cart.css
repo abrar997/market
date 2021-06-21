@@ -162,12 +162,14 @@
     }
     .tablecard .container .row  .card-body .table tr td{font-size: xx-small;}
 
-    .tablecard .container .row  .card-body .table  nav  .pagination{font-size: x-small;
+    .tablecard .container .row  .card-body .table  nav  .pagination{font-size: xx-small;
     padding: 3px;
     }
-    .tablecard .container .row  .card-body .table .table-remove button{padding: 15px;}
+    .tablecard .container .row  .card-body .table .table-remove button{padding: 10px;}
+ .tablecard .container .row  .card-body .table nav   .pagination .page-item {width: 25px;}
+ .tablecard .container .row  .card-body .table nav   .pagination .page-item1 {width: 25px;}
 
-    }
+}
 
     /*-------------------------------------------------------------------*/
 
@@ -367,11 +369,30 @@
     footer hr {display: none;}
     .page-footer .container .row .icons ul li  form {width:80%;margin: auto;}
     .page-footer .container .row .icons ul li .button {width: 100px;
-    margin-left:60px;
+     margin-left:60px;
     }
     footer {font-size: smaller;}
     footer img{display: none;}
+    .page-footer .container .row .texts h4 {font-size:5px;}
+    .page-footer .container .row .texts span{font-size: 5px;}
+    .page-footer .container .row .icons ul li {font-size:5px ;}
+    .page-footer .container .row  .mx-auto ul li{font-size: 5px;}
+    .page-footer .container .row  p{font-size: 5px;}
+    .page-footer .container .row a{font-size: 7px;}
+    .page-footer hr {display: none;}
+    footer img{display: none;} 
+    .page-footer .container .row .icons ul li .button {width: 60px;
+
+    font-size: small;
     }
+
+    .page-footer .container .row {display: flex;
+    flex-flow: row  ;
+    justify-content: space-around;}
+    body{overflow-x:hidden ;}
+
+    }
+
     /*------------------------------------------------*/
     /*media query from 576px to 768px --------------*/
     @media screen and (min-width:576px) and (max-width:768px) {
@@ -401,6 +422,7 @@
     padding: 2px;
 
     }
+    body{overflow-x:hidden ;}
 
     .cartbutton {padding-bottom: 600px;}
 
@@ -446,6 +468,7 @@
     margin: auto;
     font-size: 10px;
     } 
+    body{overflow-x:hidden ;}
 
     .navbar-toggler {background-color: #7971ea;
     height: 20px;
@@ -495,6 +518,7 @@
     .page-footer .container .row  .mx-auto ul li{font-size: small;}
     .page-footer .container .row  p{font-size: small;}
     .page-footer .container .row a{font-size: small;}
+    body{overflow-x:hidden ;}
 
     }
 

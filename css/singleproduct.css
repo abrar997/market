@@ -338,6 +338,16 @@
     margin-left:60px;
     }
     footer img{display: none;}
+    .page-footer .container .row .texts h4 {font-size: xx-small;}
+    .page-footer .container .row .texts span{font-size: xx-small;}
+    .page-footer .container .row .icons ul li {font-size:smaller ;}
+    .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
+    .page-footer .container .row  p{font-size: smaller;}
+    .page-footer .container .row a{font-size: smaller;}
+    .page-footer .container .row  {display: flex;
+    flex-flow: row ;
+    }
+    body{overflow-x:hidden ;}
 
     }
     /*media query from 576px to 768px --------------*/
@@ -368,8 +378,12 @@
     padding: 2px;
 
     }
+    body{overflow-x:hidden ;}
 
-
+    .four{margin-top: 550px;}
+    .four .container .row .card{height: 350px;}
+    .four .container .row .card-body h4 {font-size: 17px;}
+    .four .container .row .card-body p {font-size: 10px;}
     .page-footer .container .row .texts h4 {font-size: xx-small;}
     .page-footer .container .row .texts span{font-size: xx-small;}
     .page-footer .container .row .icons ul li {font-size:smaller ;}
@@ -378,7 +392,7 @@
     .page-footer .container .row a{font-size: smaller;}
     .page-footer hr {display: none;}
     footer img{display: none;} 
-    .page-footer .container .row .icons ul li .button {width: 160px;
+    .page-footer .container .row .icons ul li .button {width: 60px;
     margin-left:20px;
     font-size: small;
     }
@@ -411,6 +425,7 @@
     margin: auto;
     font-size: 10px;
     } 
+    body{overflow-x:hidden ;}
 
     .navbar-toggler {background-color: #7971ea;
     height: 20px;
@@ -457,8 +472,6 @@
     .page-footer .container .row  p{font-size: small;}
     .page-footer .container .row a{font-size: small;}
     }
-
-
-
+    body{overflow-x:hidden ;}
 
     /*tam walhamdu llellah*/

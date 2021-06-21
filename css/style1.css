@@ -51,11 +51,11 @@
 
   } 
   header .navbar .form-inline  input{margin-left: 0px;
-  width: 100px;
+  width: 80px;
   height: 20px;
-
+  font-size: 9px;
   }
-  header .navbar .form-inline .fas{font-size: 5px;
+  header .navbar .form-inline  input .fas{font-size: 5px;
 
   }
   header .headname{border: 1px soid black;
@@ -66,21 +66,20 @@
 
   }
   /*---------------media query from 576px to 768px----------------------------------------------*/
-  @media screen and (min-width:576px) and (max-width:768px) {
-  header .navbar{margin: 0px 0px;
-  background:transparent;
 
-  } 
+  @media screen and (min-width:576px) and (max-width:768px) {
+
   header .navbar .form-inline  input{margin-left: 0px;
   width: 100px;
   height: 20px;
 
   }
-  header .navbar .form-inline .fas{font-size: 5px;
 
+  header .navbar .form-inline .fas{font-size: 5px;
   }
+
   header .headname{border: 1px soid black;
-  padding: 0px;
+  padding: 14px;
   margin: auto;
   font-size: 10px;
   } 
@@ -93,12 +92,12 @@
   padding: 2px;
 
   }
+
   .one .container .row .textone{padding-bottom: 40px;}
 
   .one .container .row .textone h1{font-size:25px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   text-align: center;
-
   }
 
   .one .container .row .textone p{font-size: 15px;
@@ -106,27 +105,39 @@
 
 
   .one .container .row .imgone img{
-  width: 50%;margin-left: 100px;
+  width: 50%;
+  margin-left: 100px;
   }
   .one .textone .btn {margin-left: 200px;}
 
-  .two .container .row {font-size: x-small;}
-
-  .two .container .row i{font-size: xx-small;}
-
+  .two .container .row .car .fas{font-size: 10px;}
+  .two .container .row .rota .fas{font-size: 10px;}
+  .two .container .row .rota a{font-size: 12px;}
+  .two .container .row .icon a {font-size: 14px;}
+  .two .container .row .car a{font-size: 14px;}
+  .two .container .row p{font-size: 10px;
+  text-align: center;}
   .two {border-bottom-style: none;}
-  .three {margin-top: 70px;}
 
+  .three {margin-top: 70px;}
   .three .container .row {margin: auto;}
 
   .three .container .row  {display: flex;
-  flex-flow: column;
-  justify-content: space-between;
-  margin-top: 60px;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-top: 20px;
   }
+  .three .container .row .boxthree .img-zoom {width: 140px;
+  height: 300px;
+  margin-left: 60px;
+  padding: 10px;overflow:hidden;
+  } 
+  .three .container .row .threetext p{font-size: 10px;}
+  .three .container .row .threetext h3{font-size: 13px;}
 
-  .three .container .row .boxthree  {display: flex;
-  flex-flow: row wrap;
+  .two .container .row  .car .fas{font-size: 10px;}
+
+  .three .container .row .boxthree  {
   margin-top: 30px;
   }
 
@@ -140,8 +151,8 @@
   .five .container .row .bigsale .imgsale img {transition: all 1s ease;}
   .five .container .row .bigsale .imgsale img:hover{transform: scale(1.9);}
 
-  .five .container .row {display: flex;flex-flow:
-  row wrap;
+  .five .container .row {display: flex;
+  flex-flow:row wrap;
   }
   .page-footer .container .row .texts h4 {font-size: xx-small;}
   .page-footer .container .row .texts span{font-size: xx-small;}
@@ -232,20 +243,31 @@
   /*------------------- MEDIA QUERY------------------------*/
 
   @media screen and (min-width:0px) and (max-width:575px){ 
-  .one {height: 500px; background-size: cover;
+  .one {height: 400px;
+  background-size: cover;
   }
-  .one .imgone img{width: 50%;margin-left: 100px;}
+  .one .imgone img{width:100%;
+  padding-left: 40px;
+  margin-top: 110px;
+  transition: all 1s ease;
+  }
+  .one .imgone img:hover {transform: scale(1.1);}
   .one .textone{margin: auto;
   margin-left: 110px;
   }
-  .one .textone h1{font-size: 30px;
+
+  .one .textone h1{font-size: 15px;
+  padding-top: 50px;
   }
   .one .textone p{font-size: 10px;}
   .one .textone .btn{width: 80px;
   font-size: 10px;
   margin-top: 5px;
-  margin-left: 30px;
-
+  margin-left: 10px; 
+  }
+  .one .container .row {display: flex;
+  flex-flow: row;
+  justify-content: space-between;
   }
   .one{margin-bottom: 0px;
   }
@@ -368,6 +390,7 @@
   padding-top: 20px;
 
   }
+  body{overflow-x:hidden ;}
 
   }
   /*----------------------------SECTION FOUR----------------------------------*/
@@ -482,6 +505,7 @@
   }
 
   .five .container .row .bigsale .textsale {font-size:smaller;}
+  body{overflow-x:hidden ;}
 
   }
 
@@ -560,6 +584,8 @@
   border-radius: 3px;
 
   }
+  body{overflow-x:hidden ;}
+
 
   .page-footer .container .row .icons ul li  .button p{color: rgb(241, 238, 238);
   text-transform: uppercase;
@@ -574,26 +600,41 @@
 
   }
 
-  /*----------------------------END FIRST PAGE----------------------------------------------------------------------------------------------*/
+  /*----------------------------END FIRST PAGE-------------------------------*/
   /*------------------------------media query------*/
   @media screen and (min-width:0px) and (max-width:575px){ 
-
+  .page-footer .container .row {display: flex;
+  flex-flow: row ;
+  justify-content: space-between;
+  margin: auto;
+  font-size: xx-small;
+  }
   footer hr {display: none;}
-  .page-footer .container .row .icons ul li  form {width:80%;margin: auto;}
-  .page-footer .container .row .icons ul li .button {width: 60px;
-  margin-left:40px;
+  .page-footer .container .row .icons ul li .button {width: 20px;
+  margin-left:50px;
   }
-  footer {margin-right: 100px;
-  }
-  .title .container .row .titles {margin: auto;} 
+  .page-footer .container .row a{font-size: 10px;}
+  footer {font-size: xx-small;}
+  .page-footer .container .row  ul li {font-size: 5px;}
   footer img {display: none;}
+  .page-footer .container .row .texts h4 {font-size: xx-small;}
+  .page-footer .container .row .texts span{font-size: xx-small;}
+  .page-footer .container .row .icons ul li {font-size:smaller ;}
+  .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
+  .page-footer .container .row  p{font-size: smaller;}
+  .page-footer .container .row a{font-size: smaller;}
+  .page-footer .container .row  {display: flex;
+  flex-flow: row ;
+  }
+  body{overflow-x:hidden ;}
+
   }
   /*------------------------------PAGE TWO---------------*/
 
   .title  {background-color:  rgb(245, 245, 245);
   height:60px;
   }
-
+  body{overflow-x: hidden;}
   /*---------------*/
 
 
@@ -688,23 +729,26 @@
   }
   .one .container .row .textone {margin: auto;}
   .two .container .row a {font-size: small;font-weight: 600;}
-  .two .container .row {font-size: x-small;}
+  .two .container .row {font-size: xx-small;}
 
   .two .container .row i{font-size: xx-small;}
 
-  .two .container .row .car .fas {font-size: 20px;}
-  .two .container .row .rota .fas{font-size: 20px;}
-  .two .container .row .icon .fas{font-size: 17px;}
-
+  .two .container .row .car .fas {font-size: 10px;}
+  .two .container .row .rota .fas{font-size: 10px;}
+  .two .container .row .icon .fas{font-size: 10px;}
+  .three .container .row .threetext {display: none;}
   .four .container .row .card-body p {font-size: 15px;}
 
   .five .container .row .bigsale .imgsale img{padding-top: 70px;}
-  .page-footer .container .row .texts h4 {font-size: xx-small;}
-  .page-footer .container .row .texts span{font-size: xx-small;}
-  .page-footer .container .row .icons ul li {font-size:smaller ;}
-  .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
-  .page-footer .container .row  p{font-size: smaller;}
-  .page-footer .container .row a{font-size: smaller;}
+  .page-footer .container .row {display: flex;
+  flex-flow: column wrap;justify-content: space-around;
+  }
+  .page-footer .container .row .texts h4 {font-size: 14px;}
+  .page-footer .container .row .texts span{font-size:12px;}
+  .page-footer .container .row .icons ul li {font-size:10px ;}
+  .page-footer .container .row  .mx-auto ul li{font-size: 12px;}
+  .page-footer .container .row  p{font-size: 10px}
+  .page-footer .container .row a{font-size:10px;}
   .page-footer hr {display: none;}
   footer img{display: none;} 
   .page-footer .container .row .icons ul li .button {width: 160px;

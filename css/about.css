@@ -9,7 +9,19 @@
     justify-content: space-between;
     margin-top: 60px;}
     .aboutone .container .row .bigsaleabout{font-size: 10px;}
-    footer {font-size: xx-small;}
+    .page-footer .container .row .texts h4 {font-size: xx-small;}
+    .page-footer .container .row .texts span{font-size: xx-small;}
+    .page-footer .container .row .icons ul li {font-size:smaller ;}
+    .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
+    .page-footer .container .row  p{font-size: smaller;}
+    .page-footer .container .row a{font-size: smaller;}
+    .page-footer .container .row  {display: flex;
+    flex-flow: row wrap;
+    }
+
+    .title .container .row {margin: auto;}
+    body{overflow-x:hidden ;}
+
     }
     /*--------------media query from 576px to 768px-------------------*/
 
@@ -71,10 +83,23 @@
     .page-footer .container .row a{font-size: smaller;}
     .page-footer hr {display: none;}
 
+    .page-footer .container .row {display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    }
+    .page-footer .container .row .icons ul li .button {width:30px;
+    margin-left:20px;
+    font-size: small;
+    }
+    .page-footer .container .row .icons ul li .button {width:30px;
+    margin-left:20px;
+    font-size: small;
+    }
+    body{overflow-x:hidden ;}
 
     }
     /*----------------------------------------Media query from 768px to 992px-----------------*/
-        @media screen and (min-width:768px) and (max-width:992px) {
+    @media screen and (min-width:768px) and (max-width:992px) {
     header .navbar{margin: 0px 0px;
     background:transparent;
 
@@ -87,6 +112,9 @@
     header .navbar .form-inline .fas{font-size: 5px;
 
     }
+
+    body{overflow-x:hidden ;}
+
     header .headname{border: 1px soid black;
     padding:10px;
     font-size: 10px;
@@ -100,7 +128,7 @@
     article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
     padding: 2px;
     }
- .aboutone .container .row .bigsaleabout .imgsaleabout  img{padding-top:100px;}
+    .aboutone .container .row .bigsaleabout .imgsaleabout  img{padding-top:100px;}
     .aboutone .container .row .bigsaleabout .textsaleabout .upper p {font-size: smaller}
     .aboutone.container .row .bigsaleabout.textsaleabout h2{font-size:smaller;}
     .two .container .row i{font-size: xx-small;}
@@ -124,10 +152,12 @@
     .page-footer .container .row a{font-size: smaller;}
     .page-footer hr {display: none;}
     footer img{display: none;} 
-    .page-footer .container .row .icons ul li .button {width: 160px;
+    .page-footer .container .row .icons ul li .button {width:30px;
     margin-left:20px;
     font-size: small;
     }
+    .page-footer .container .row .icons {font-size: x-small;}
+    .page-footer .container .row .icons ul li input {width: 40px; padding: 3px;}
     .page-footer .container .row .icons ul li  .button {width: 30%;
     left: 215px;
     bottom: 23px;
@@ -135,3 +165,7 @@
     .two .container .row .rightall  .order  .btn-block {width: 95%;}
     }
 
+    .page-footer .container .row{display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    }

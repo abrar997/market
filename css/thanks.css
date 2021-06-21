@@ -232,6 +232,7 @@
   letter-spacing: 3px;
 
   }
+  body{overflow-x:hidden ;}
 
   .page-footer .container .row .footer-copyright {background-color: transparent;
 
@@ -249,7 +250,26 @@
   footer img{display: none;
 
   }
+  body{overflow-x:hidden ;}
+  .page-footer .container .row .texts h4 {font-size:5px;}
+  .page-footer .container .row .texts span{font-size: 5px;}
+  .page-footer .container .row .icons ul li {font-size:5px ;}
+  .page-footer .container .row  .mx-auto ul li{font-size: 5px;}
+  .page-footer .container .row  p{font-size: 5px;}
+  .page-footer .container .row a{font-size: 7px;}
+  .page-footer hr {display: none;}
+    footer img{display: none;} 
+  .page-footer .container .row .icons ul li .button {width: 60px;
+
+  font-size: small;
   }
+
+  .page-footer .container .row {display: flex;
+  flex-flow: row  ;
+  justify-content: space-around;}
+
+  }
+
 
 
   /*----------------------------------- media query from 576px to  768px----------------------------------------*/
@@ -296,6 +316,8 @@
   left: 310px;
   bottom: 23px;
   }
+  body{overflow-x:hidden ;}
+
   .two .container .row .rightall  .order  .btn-block {width: 95%;}
   }
 
@@ -329,6 +351,7 @@
   padding: 2px;
 
   }
+  body{overflow-x:hidden ;}
   .page-footer .container .row .texts h4 {font-size: xx-small;}
   .page-footer .container .row .texts span{font-size: xx-small;}
   .page-footer .container .row .icons ul li {font-size:smaller ;}
@@ -356,6 +379,8 @@
   .page-footer .container .row  .mx-auto ul li{font-size: small}
   .page-footer .container .row  p{font-size: small;}
   .page-footer .container .row a{font-size: small;}
+  body{overflow-x:hidden ;}
 
   }
   /*********************   /tam walhamdu llellah/*******************************/
+  
