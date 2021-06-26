@@ -3,24 +3,51 @@
     hr{display: none;}
     .aboutone .container .row .bigsaleabout .imgsaleabout  img{margin-left: 20px;}
     .aboutone .container .row  hr{display: none;}
-
+  .aboutone .container .row{border-bottom: none;}
     .aboutone .container .row .bigsaleabout{display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     margin-top: 60px;}
     .aboutone .container .row .bigsaleabout{font-size: 10px;}
-    .page-footer .container .row .texts h4 {font-size: xx-small;}
-    .page-footer .container .row .texts span{font-size: xx-small;}
-    .page-footer .container .row .icons ul li {font-size:smaller ;}
-    .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
-    .page-footer .container .row  p{font-size: smaller;}
-    .page-footer .container .row a{font-size: smaller;}
-    .page-footer .container .row  {display: flex;
-    flex-flow: row wrap;
-    }
+    
+    .page-footer .container .row {display: flex;
+  flex-flow: row ;
+  justify-content: space-between;
+  margin: auto;
+  font-size: xx-small;
+  } 
+  footer hr {display: none;}
+  .page-footer .container .row .icons ul li .button {width:50px
+    ;font-size: small;
 
-    .title .container .row {margin: auto;}
-    body{overflow-x:hidden ;}
+top: 14px;
+
+  }
+ header .navbar .form-inline  input{margin-left: 0px;
+  width: 80px;
+  height: 20px;
+  font-size: 9px;
+  }
+  header .navbar .form-inline  input .fas{font-size: 5px;
+
+  }
+   @media screen and (min-width:0px) and (max-width:575px){ 
+  .title .titles {margin: auto;} }
+  .page-footer .container .row a{font-size: 10px;}
+  footer {font-size: xx-small;}
+  .page-footer .container .row  ul li {font-size: 5px;}
+  footer img {display: none;}
+  .page-footer .container .row .texts h4 {font-size: small;}
+  .page-footer .container .row .texts span{font-size: small;}
+  .page-footer .container .row .icons ul li {font-size:small ;}
+  .page-footer .container .row  .mx-auto ul li{font-size: small;}
+  .page-footer .container .row  p{font-size: small;}
+  .page-footer .container .row a{font-size: small;}
+  .page-footer .container .row  {display: flex;
+  flex-flow: row ;
+  }
+  body{overflow-x:hidden ;}
+
 
     }
     /*--------------media query from 576px to 768px-------------------*/

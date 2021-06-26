@@ -93,7 +93,16 @@
     .navbar-toggler {background-color: #7971ea;
     height: 20px;
     width: 30px;}
+header .navbar .form-inline  input{margin-left: 0px;
+  width: 80px;
+  height: 20px;
+  font-size: 9px;
+  }
+   @media screen and (min-width:0px) and (max-width:575px){ 
+  .title .titles {margin: auto;} }
+  header .navbar .form-inline  input .fas{font-size: 5px;
 
+  }
     article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
     padding: 2px;
 
@@ -160,15 +169,18 @@
     @media screen and (min-width:0px) and (max-width:575px) {
     .tablecard .container .row  .card-body .table tr th{font-size: x-small; 
     }
-    .tablecard .container .row  .card-body .table tr td{font-size: xx-small;}
+     .tablecard .container .row  {margin-right: 20px;}
+    .tablecard .container .row  .card-body .table tr td{font-size: xx-small;
+    }
 
     .tablecard .container .row  .card-body .table  nav  .pagination{font-size: xx-small;
     padding: 3px;
+    margin: auto
     }
-    .tablecard .container .row  .card-body .table .table-remove button{padding: 10px;}
- .tablecard .container .row  .card-body .table nav   .pagination .page-item {width: 25px;}
+    .tablecard .container .row td {width: 30px;}
+    .tablecard .container .row  .card-body .table .table-remove button{padding: 5px;margin: auto}
+ .tablecard .container .row  .card-body .table nav   .pagination .page-item {width:25px;}
  .tablecard .container .row  .card-body .table nav   .pagination .page-item1 {width: 25px;}
-
 }
 
     /*-------------------------------------------------------------------*/
@@ -331,34 +343,36 @@
     .page-footer .container .row .icons ul li form{position: relative;
     }
 
-    .page-footer .container .row .icons ul li form input {padding: 10px;
-    margin-top: 10px;
-    width: 250px;
-    border: 1px solid grey ;
-    border-radius: 3px;
-    font-size: 15px;
-    }
+    .page-footer .container .row .icons ul li form input {padding: 5px;
+  margin-top: 10px;
+  width: 200px;
+  border: 1px solid grey ;
+  border-radius: 3px;
+  font-size: 15px;
+margin-right: 50px;
+  }
 
 
-    .page-footer .container .row .icons ul li  .button{position: absolute;
-    background-color: #7971ea;
-    height: 40px;
-    bottom: 23px;
-    left: 239px;
-    width: 23%;
-    border: 1px solid #7971ea;
-    border-radius: 3px;
+  .page-footer .container .row .icons ul li  .button{position: absolute;
+  background-color: #7971ea;
+  height: 30px;
+  bottom: 17px;
+  right: 8px;
+  border: 1px solid #7971ea;
+  border-radius: 3px;
 
-    }
+  }
+  body{overflow-x:hidden ;}
 
-    .page-footer .container .row .icons ul li  .button p{color: rgb(241, 238, 238);
-    text-transform: uppercase;
-    font-size: 13px;
-    text-align: center;
-    padding-top: 10px;
-    letter-spacing: 3px;
 
-    }
+  .page-footer .container .row .icons ul li  .button p{color: rgb(241, 238, 238);
+  text-transform: uppercase;
+  font-size: 8px;
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: 3px;
+
+  }
 
     .page-footer .container .row .footer-copyright {background-color: transparent;
 
@@ -366,32 +380,31 @@
 
     /*----------------------------------------MEDIA QUERY from 0px to 568px --------------*/
     @media screen and (min-width:0px) and (max-width:575px){ 
-    footer hr {display: none;}
-    .page-footer .container .row .icons ul li  form {width:80%;margin: auto;}
-    .page-footer .container .row .icons ul li .button {width: 100px;
-     margin-left:60px;
-    }
-    footer {font-size: smaller;}
-    footer img{display: none;}
-    .page-footer .container .row .texts h4 {font-size:5px;}
-    .page-footer .container .row .texts span{font-size: 5px;}
-    .page-footer .container .row .icons ul li {font-size:5px ;}
-    .page-footer .container .row  .mx-auto ul li{font-size: 5px;}
-    .page-footer .container .row  p{font-size: 5px;}
-    .page-footer .container .row a{font-size: 7px;}
-    .page-footer hr {display: none;}
-    footer img{display: none;} 
-    .page-footer .container .row .icons ul li .button {width: 60px;
+     footer hr {display: none;}
+    .page-footer .container .row .icons ul li .button {width:40px
+  ;font-size: small;
+  right: 65px;
+  top: 75px;
 
-    font-size: small;
-    }
+  }
+   .page-footer .container .row .icons input {margin-left: 40px;}
+    .page-footer .container .row{width: 400px}
 
-    .page-footer .container .row {display: flex;
-    flex-flow: row  ;
-    justify-content: space-around;}
+    footer img {display: none;}
+    .title .container .row .titles {margin: auto;}
+    .page-footer .container .row .texts h4 {font-size: small;}
+    .page-footer .container .row .texts span{font-size:small;}
+    .page-footer .container .row .icons ul li {font-size:small ;}
+    .page-footer .container .row  .mx-auto ul li{font-size: small;}
+    .page-footer .container .row  p{font-size: small;}
+    .page-footer .container .row a{font-size: small;}
+    .page-footer .container .row  {display: flex;
+    flex-flow: row wrap;
+    }
     body{overflow-x:hidden ;}
-
+    footer nav button{ margin: auto;margin-left: 80px;}
     }
+
 
     /*------------------------------------------------*/
     /*media query from 576px to 768px --------------*/

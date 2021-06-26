@@ -49,6 +49,14 @@
 
   } 
   header .navbar .form-inline  input{margin-left: 0px;
+  width: 80px;
+  height: 20px;
+  font-size: 9px;
+  }
+  header .navbar .form-inline  input .fas{font-size: 5px;
+
+  }
+  header .navbar .form-inline  input{margin-left: 0px;
   width: 100px;
   height: 20px;
 
@@ -115,7 +123,11 @@
   .onecheck .container .row .form {margin-top: 40px;
   }
   /*---------------------------------------------*/
-
+  @media screen and (min-width:0px) and (max-width:575px){ 
+   .onecheck .container .row .form {width: 40%;
+  padding: 15px;}
+.onecheck .container .row .form p {font-size:smaller} 
+}
   /*------------------------------------------*/
   .two .container .row .leftcheck h3{margin-top: 35px;
   margin-bottom: 20px;
@@ -203,16 +215,26 @@
   }
 
   .two {border-bottom: 1px solid rgb(238, 235, 235);
-  padding-bottom: 80px;
   }
 
   /*-------------------------------------------------FOOTER-----*/
 
   @media screen and (min-width:0px) and (max-width:575px){ 
-
+.two{font-size: smaller;}
   .two .container .row .rightall .right form  button{right:90px;
   top: 155px;
-  }}
+  }
+
+  .two .container .row .rightall .right form  button {right:
+  25px}
+.two .container .row .rightall  .order  .btn-block {padding: 10px;
+margin-right: 10px;
+width: 90%;}
+.two .container .row .rightall .right input {width: 90%;}
+
+ .two .container .row .rightall  input {margin: auto;}
+ .two .container .row .text  p {font-size: smal ler;}
+}
   /*-------------FOOTER--------------------------------------*/
 
   .page-footer .container .row  {margin-top: 60px;
@@ -267,72 +289,67 @@
   .page-footer .container .row .icons ul li form{position: relative;
   }
 
-  .page-footer .container .row .icons ul li form input {padding: 10px;
+  .page-footer .container .row .icons ul li form input {padding: 5px;
   margin-top: 10px;
-  width: 250px;
+  width: 200px;
   border: 1px solid grey ;
   border-radius: 3px;
   font-size: 15px;
-  outline: none;
+margin-right: 50px;
   }
 
 
   .page-footer .container .row .icons ul li  .button{position: absolute;
   background-color: #7971ea;
-  height: 40px;
-  bottom: 23px;
-  left: 239px;
-  width: 23%;
+  height: 30px;
+  bottom: 17px;
+  right: 8px;
   border: 1px solid #7971ea;
   border-radius: 3px;
 
-
   }
+  body{overflow-x:hidden ;}
+
 
   .page-footer .container .row .icons ul li  .button p{color: rgb(241, 238, 238);
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 8px;
   text-align: center;
   padding-top: 10px;
   letter-spacing: 3px;
 
   }
-
   .page-footer .container .row .footer-copyright {background-color: transparent;
 
   }
-
   /*----------------------------END FIRST PAGE----------------------------------------------------------------------------------------------*/
 
   @media screen and (min-width:0px) and (max-width:575px){ 
 
-  footer hr {display: none;}
-  .page-footer .container .row .icons ul li  form {width:10%;margin: auto;}
-  .page-footer .container .row .icons ul li .button {width: 10px;
-  margin-left:80px;
+    footer hr {display: none;}
+    .page-footer .container .row .icons ul li .button {width:40px
+  ;font-size: small;
+  right: 45px;
+  top: 75px;
+
   }
-  .page-footer .container .row .texts h4 {font-size:5px;}
-  .page-footer .container .row .texts span{font-size: 5px;}
-  .page-footer .container .row .icons ul li {font-size:5px ;}
-  .page-footer .container .row  .mx-auto ul li{font-size: 5px;}
-  .page-footer .container .row  p{font-size: 5px;}
-  .page-footer .container .row a{font-size: 7px;}
-  .page-footer hr {display: none;}
-    footer img{display: none;} 
-  .page-footer .container .row .icons ul li .button {width: 60px;
+   .page-footer .container .row .icons input {margin-left: 40px;}
+    .page-footer .container .row{width: 400px}
 
-  font-size: small;
-  }
-
-  .page-footer .container .row {display: flex;
-  flex-flow: row  ;
-  justify-content: space-around;}
-
+    footer img {display: none;}
+    .title .container .row .titles {margin: auto;}
+    .page-footer .container .row .texts h4 {font-size: small;}
+    .page-footer .container .row .texts span{font-size:small;}
+    .page-footer .container .row .icons ul li {font-size:small ;}
+    .page-footer .container .row  .mx-auto ul li{font-size: small;}
+    .page-footer .container .row  p{font-size: small;}
+    .page-footer .container .row a{font-size: small;}
+    .page-footer .container .row  {display: flex;
+    flex-flow: row wrap;
+    }
     body{overflow-x:hidden ;}
-
-
-  }                     
-
+    footer nav button{ margin: auto;margin-left: 80px;}
+    }
 
   /*media query from 576px to 768px --------------*/
   @media screen and (min-width:576px) and (max-width:768px) {

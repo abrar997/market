@@ -48,12 +48,15 @@
   background:transparent;
 
   } 
-  header .navbar .form-inline  input{margin-left: 0px;
-  width: 100px;
-  height: 20px;
+   @media screen and (min-width:0px) and (max-width:575px){ 
+  .title .titles {margin: auto;} }
 
+  header .navbar .form-inline  input{margin-left: 0px;
+  width: 80px;
+  height: 20px;
+  font-size: 9px;
   }
-  header .navbar .form-inline .fas{font-size: 5px;
+  header .navbar .form-inline  input .fas{font-size: 5px;
 
   }
   header .headname{border: 1px soid black;
@@ -202,37 +205,36 @@
   .page-footer .container .row .icons ul li form{position: relative;
   }
 
-  .page-footer .container .row .icons ul li form input {padding: 10px;
+  .page-footer .container .row .icons ul li form input {padding: 5px;
   margin-top: 10px;
-  width: 250px;
+  width: 200px;
   border: 1px solid grey ;
   border-radius: 3px;
   font-size: 15px;
-  outline: none;
+margin-right: 50px;
   }
 
 
   .page-footer .container .row .icons ul li  .button{position: absolute;
   background-color: #7971ea;
-  height: 40px;
-  bottom: 23px;
-  left: 239px;
-  width: 23%;
+  height: 30px;
+  bottom: 17px;
+  right: 8px;
   border: 1px solid #7971ea;
   border-radius: 3px;
 
-
   }
+  body{overflow-x:hidden ;}
+
 
   .page-footer .container .row .icons ul li  .button p{color: rgb(241, 238, 238);
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 8px;
   text-align: center;
   padding-top: 10px;
   letter-spacing: 3px;
 
   }
-  body{overflow-x:hidden ;}
 
   .page-footer .container .row .footer-copyright {background-color: transparent;
 
@@ -243,20 +245,22 @@
 
   footer hr {display: none;}
   .page-footer .container .row .icons ul li  form {width:80%;margin: auto;}
-  .page-footer .container .row .icons ul li .button {width: 100px;
-  margin-left:60px;
-  }
+  .page-footer .container .row .icons ul li .button {width:40px
+  ;font-size: small;
+  right: 105px;
+  top: 74px;
 
+  }
   footer img{display: none;
 
   }
   body{overflow-x:hidden ;}
-  .page-footer .container .row .texts h4 {font-size:5px;}
-  .page-footer .container .row .texts span{font-size: 5px;}
-  .page-footer .container .row .icons ul li {font-size:5px ;}
-  .page-footer .container .row  .mx-auto ul li{font-size: 5px;}
-  .page-footer .container .row  p{font-size: 5px;}
-  .page-footer .container .row a{font-size: 7px;}
+  .page-footer .container .row .texts h4 {font-size:small;}
+  .page-footer .container .row .texts span{font-size: small;}
+  .page-footer .container .row .icons ul li {font-size:small ;}
+  .page-footer .container .row  .mx-auto ul li{font-size: small;}
+  .page-footer .container .row  p{font-size: small;}
+  .page-footer .container .row a{font-size: small;}
   .page-footer hr {display: none;}
     footer img{display: none;} 
   .page-footer .container .row .icons ul li .button {width: 60px;

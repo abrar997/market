@@ -65,108 +65,7 @@
   }
 
   }
-  /*---------------media query from 576px to 768px----------------------------------------------*/
-
-  @media screen and (min-width:576px) and (max-width:768px) {
-
-  header .navbar .form-inline  input{margin-left: 0px;
-  width: 100px;
-  height: 20px;
-
-  }
-
-  header .navbar .form-inline .fas{font-size: 5px;
-  }
-
-  header .headname{border: 1px soid black;
-  padding: 14px;
-  margin: auto;
-  font-size: 10px;
-  } 
-
-  .navbar-toggler {background-color: #7971ea;
-  height: 20px;
-  width: 30px;}
-
-  article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
-  padding: 2px;
-
-  }
-
-  .one .container .row .textone{padding-bottom: 40px;}
-
-  .one .container .row .textone h1{font-size:25px;
-  margin-bottom: 60px;
-  text-align: center;
-  }
-
-  .one .container .row .textone p{font-size: 15px;
-  text-align: center;}
-
-
-  .one .container .row .imgone img{
-  width: 50%;
-  margin-left: 100px;
-  }
-  .one .textone .btn {margin-left: 200px;}
-
-  .two .container .row .car .fas{font-size: 10px;}
-  .two .container .row .rota .fas{font-size: 10px;}
-  .two .container .row .rota a{font-size: 12px;}
-  .two .container .row .icon a {font-size: 14px;}
-  .two .container .row .car a{font-size: 14px;}
-  .two .container .row p{font-size: 10px;
-  text-align: center;}
-  .two {border-bottom-style: none;}
-
-  .three {margin-top: 70px;}
-  .three .container .row {margin: auto;}
-
-  .three .container .row  {display: flex;
-  flex-flow: row;
-  justify-content: space-around;
-  margin-top: 20px;
-  }
-  .three .container .row .boxthree .img-zoom {width: 140px;
-  height: 300px;
-  margin-left: 60px;
-  padding: 10px;overflow:hidden;
-  } 
-  .three .container .row .threetext p{font-size: 10px;}
-  .three .container .row .threetext h3{font-size: 13px;}
-
-  .two .container .row  .car .fas{font-size: 10px;}
-
-  .three .container .row .boxthree  {
-  margin-top: 30px;
-  }
-
-  .four .container .row .card {height: 300px;}
-  .four .container .row .card-body h4{font-size: smaller}
-  .four .container .row .card-body p{display: none;}
-  .four .container .row .card-body .card-img-top{width: 50%;}
-  .five {font-size: xx-small}
-
-
-  .five .container .row .bigsale .imgsale img {transition: all 1s ease;}
-  .five .container .row .bigsale .imgsale img:hover{transform: scale(1.9);}
-
-  .five .container .row {display: flex;
-  flex-flow:row wrap;
-  }
-  .page-footer .container .row .texts h4 {font-size: xx-small;}
-  .page-footer .container .row .texts span{font-size: xx-small;}
-  .page-footer .container .row .icons ul li {font-size:smaller ;}
-  .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
-  .page-footer .container .row  p{font-size: smaller;}
-  .page-footer .container .row a{font-size: smaller;}
-  .page-footer hr {display: none;}
-  footer img{display: none;} 
-  .title .container .row .titles {margin: auto;} 
-  footer img {display: none;}
-
-
-  }
+ 
   /*--------ARTICLE------------------------------*/
   article  .navbar {background: transparent;
   color: black;
@@ -563,23 +462,21 @@
   .page-footer .container .row .icons ul li form{position: relative;
   }
 
-  .page-footer .container .row .icons ul li form input {padding: 10px;
+  .page-footer .container .row .icons ul li form input {padding: 5px;
   margin-top: 10px;
-  width: 250px;
+  width: 200px;
   border: 1px solid grey ;
   border-radius: 3px;
   font-size: 15px;
-
-
+  margin-right: 50px;
   }
 
 
   .page-footer .container .row .icons ul li  .button{position: absolute;
   background-color: #7971ea;
-  height: 40px;
-  bottom: 23px;
-  left: 239px;
-  width: 23%;
+  height: 30px;
+  bottom: 33px;
+  right: 15px;
   border: 1px solid #7971ea;
   border-radius: 3px;
 
@@ -589,7 +486,7 @@
 
   .page-footer .container .row .icons ul li  .button p{color: rgb(241, 238, 238);
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 8px;
   text-align: center;
   padding-top: 10px;
   letter-spacing: 3px;
@@ -610,26 +507,229 @@
   font-size: xx-small;
   }
   footer hr {display: none;}
-  .page-footer .container .row .icons ul li .button {width: 20px;
-  margin-left:50px;
+  .page-footer .container .row .icons ul li .button {width:40px
+  ;font-size: small;
+  right: 105px;
+  top: 74px;
+
   }
   .page-footer .container .row a{font-size: 10px;}
   footer {font-size: xx-small;}
   .page-footer .container .row  ul li {font-size: 5px;}
   footer img {display: none;}
-  .page-footer .container .row .texts h4 {font-size: xx-small;}
-  .page-footer .container .row .texts span{font-size: xx-small;}
-  .page-footer .container .row .icons ul li {font-size:smaller ;}
-  .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
-  .page-footer .container .row  p{font-size: smaller;}
-  .page-footer .container .row a{font-size: smaller;}
+  .page-footer .container .row nav .texts h4 {font-size: small;}
+  .page-footer .container .row .texts span{font-size: small;}
+  .page-footer .container .row .icons ul li {font-size:small ;}
+  .page-footer .container .row  .mx-auto ul li{font-size: small;}
+  .page-footer .container .row  p{font-size: small;}
+  .page-footer .container .row a{font-size: small;}
   .page-footer .container .row  {display: flex;
   flex-flow: row ;
   }
   body{overflow-x:hidden ;}
+.page-footer .container .row nav .collapse .col-md-3 ul {display: flex;
+flex-flow: row wrap;
+text-align: center;
+}
+  .page-footer .container .row nav .collapse .col-md-3 ul li {margin: auto;}
+  }
+   
+  /*---------------media query from 576px to 768px----------------------------------------------*/
+
+  @media screen and (min-width:576px) and (max-width:768px) {
+
+  header .navbar .form-inline  input{margin-left: 10px;
+  width: 100px;
+  height: 20px;
 
   }
-  /*------------------------------PAGE TWO---------------*/
+
+  header .navbar .form-inline .fas{font-size: 5px;
+  }
+
+  header .headname{border: 1px soid black;
+  padding: 14px;
+  margin: auto;
+  font-size: 10px;
+  } 
+
+  .navbar-toggler {background-color: #7971ea;
+  height: 20px;
+  width: 30px;}
+
+  article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
+  padding: 2px;
+
+  }
+  .one .container .row .textone{margin-bottom: 80px;}
+
+  .one .container .row .textone h1{font-size:25px;
+  margin-bottom: 60px;
+  text-align: center;
+  }
+  .one .container .row .textone p{font-size: 15px;
+  text-align: center;}
+
+
+  .one .container .row .imgone img{
+  width: 50%;
+  margin-left: 100px;
+  }
+  .one .textone .btn {margin-left: 200px;}
+
+  .two .container .row .car .fas{font-size: 17px;}
+  .two .container .row .rota .fas{font-size: 17px;}
+  .two .container .row .rota a{font-size: 12px;}
+  .two .container .row .icon a {font-size: 14px;}
+  .two .container .row .icon .fas {font-size: 14px;}
+  .two .container .row .car a{font-size: 14px;}
+  .two .container .row p{font-size: 10px;
+  text-align: center;}
+  .two {border-bottom-style: none;}
+
+  .three {margin-top: 70px;}
+  .three .container .row {margin: auto;}
+
+  .three .container .row .boxthree {display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  }
+  .three .container .row .boxthree .img-zoom {width: 80%;
+  height: 300px;
+  margin-left: 10px;
+  padding: 10px;overflow:hidden;
+  } 
+
+
+  .three .container .row .boxthree  {
+  margin-top: 30px;
+  }
+
+  .four .container .row .card {height: 300px;}
+  .four .container .row .card-body h4{font-size: smaller}
+  .four .container .row .card-body p{display: none;}
+  .four .container .row .card-body  img{width: 50%;
+  height:80px
+  }
+ .five .container .row .bigsale .imgsale{margin-top: 65px;}
+  .five .container .row .bigsale .textsale h2 {font-size: 22px;} 
+.five .container .row .bigsale .textsale p {font-size: 13px;} 
+  .five .container .row .bigsale .textsale .btn {margin:auto;
+  margin-left: 19px;}
+ 
+ .page-footer .container .row {display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around
+;  font-size: xx-small;
+  }
+  footer hr {display: none;}
+  .page-footer .container .row .icons ul li .button {width:40px
+  ;font-size: small;
+  right: 105px;
+  top: 74px;
+
+  }
+  .page-footer .container .row a{font-size: 10px;}
+  footer {font-size: xx-small;}
+  .page-footer .container .row  ul li {font-size: 5px;}
+  footer img {display: none;}
+  .page-footer .container .row .texts h4 {font-size: small;}
+  .page-footer .container .row .texts span{font-size: small;}
+  .page-footer .container .row .icons ul li {font-size:small ;}
+  .page-footer .container .row  .mx-auto ul li{font-size: small;}
+  .page-footer .container .row  p{font-size: small;}
+  .page-footer .container .row a{font-size: small;}
+ 
+
+  }
+  /*----------------------------------------Media query from 768px to 992px-----------------*/
+  @media screen and (min-width:768px) and (max-width:992px) {
+  header .navbar{margin: 0px 0px;
+  background:transparent;
+
+  } 
+  header .navbar .form-inline  input{margin-left: 0px;
+  width: 100px;
+  height: 20px;
+
+  }
+  header .navbar .form-inline .fas{font-size: 5px;
+
+  }
+  header .headname{border: 1px soid black;
+  padding: 10px;
+  margin: auto;
+  font-size: 10px;
+  } 
+
+  .navbar-toggler {background-color: #7971ea;
+  height: 20px;
+  width: 30px;}
+
+  article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
+  padding: 2px;
+  }
+  .one .container .row  .textone{font-size: small;}
+  .one .container .row .imgone img{
+  width: 50%;margin-left: 100px;
+  }
+  .one .container .row .textone {margin: auto;}
+  .two .container .row a {font-size: small;font-weight: 600;}
+  .two .container .row {font-size: xx-small;}
+
+  .two .container .row i{font-size: xx-small;}
+
+  .two .container .row .car .fas {font-size: 10px;}
+  .two .container .row .rota .fas{font-size: 10px;}
+  .two .container .row .icon .fas{font-size: 10px;}
+  .three .container .row .threetext {display: none;}
+  .four .container .row .card-body p {font-size: 15px;}
+
+  .five .container .row .bigsale .imgsale img{padding-top: 70px;}
+  .page-footer .container .row {display: flex;
+  flex-flow: column wrap;justify-content: space-around;
+  }
+  .page-footer .container .row .texts h4 {font-size: 14px;}
+  .page-footer .container .row .texts span{font-size:12px;}
+  .page-footer .container .row .icons ul li {font-size:10px ;}
+  .page-footer .container .row  .mx-auto ul li{font-size: 12px;}
+  .page-footer .container .row  p{font-size: 10px}
+  .page-footer .container .row a{font-size:10px;}
+  .page-footer hr {display: none;}
+  footer img{display: none;} 
+  .page-footer .container .row .icons ul li .button {width: 160px;
+  margin-left:20px;
+  font-size: small;
+  }
+  .page-footer .container .row .icons ul li  .button {width: 35%;
+  left: 200px;
+  bottom: 23px;
+  }
+  .page-footer .container .row nav .collapse .col-md-3 ul {display: flex;
+flex-flow: row ;
+text-align: center;
+}
+  }
+
+  /*----------------------------------------Media query from 992px to 1200px-----------------*/
+  @media screen and (min-width:993px) and (max-width:1200px) {
+  .one .textone h1 {font-size: 30px;}
+  .one .imgone img{width: 95%;}     
+
+  .page-footer .container .row .texts h4 {font-size: small;}
+  .page-footer .container .row .texts span{font-size:small;}
+  .page-footer .container .row .icons ul li {font-size:small;}
+  .page-footer .container .row  .mx-auto ul li{font-size: small;}
+  .page-footer .container .row  p{font-size: small;}
+  .page-footer .container .row a{font-size: small;}
+
+  }
+/*--------------------------------------------------*/
+
+  /*----------------------
+  
+  --------PAGE TWO---------------*/
 
   .title  {background-color:  rgb(245, 245, 245);
   height:60px;
@@ -695,85 +795,4 @@
 
 
 
-  /*------------------------tam walhamdu llellah------------------------------*/
-  /*----------------------------------------Media query from 768px to 992px-----------------*/
-  @media screen and (min-width:768px) and (max-width:992px) {
-  header .navbar{margin: 0px 0px;
-  background:transparent;
-
-  } 
-  header .navbar .form-inline  input{margin-left: 0px;
-  width: 100px;
-  height: 20px;
-
-  }
-  header .navbar .form-inline .fas{font-size: 5px;
-
-  }
-  header .headname{border: 1px soid black;
-  padding: 10px;
-  margin: auto;
-  font-size: 10px;
-  } 
-
-  .navbar-toggler {background-color: #7971ea;
-  height: 20px;
-  width: 30px;}
-
-  article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
-  padding: 2px;
-  }
-  .one .container .row  .textone{font-size: small;}
-  .one .container .row .imgone img{
-  width: 50%;margin-left: 100px;
-  }
-  .one .container .row .textone {margin: auto;}
-  .two .container .row a {font-size: small;font-weight: 600;}
-  .two .container .row {font-size: xx-small;}
-
-  .two .container .row i{font-size: xx-small;}
-
-  .two .container .row .car .fas {font-size: 10px;}
-  .two .container .row .rota .fas{font-size: 10px;}
-  .two .container .row .icon .fas{font-size: 10px;}
-  .three .container .row .threetext {display: none;}
-  .four .container .row .card-body p {font-size: 15px;}
-
-  .five .container .row .bigsale .imgsale img{padding-top: 70px;}
-  .page-footer .container .row {display: flex;
-  flex-flow: column wrap;justify-content: space-around;
-  }
-  .page-footer .container .row .texts h4 {font-size: 14px;}
-  .page-footer .container .row .texts span{font-size:12px;}
-  .page-footer .container .row .icons ul li {font-size:10px ;}
-  .page-footer .container .row  .mx-auto ul li{font-size: 12px;}
-  .page-footer .container .row  p{font-size: 10px}
-  .page-footer .container .row a{font-size:10px;}
-  .page-footer hr {display: none;}
-  footer img{display: none;} 
-  .page-footer .container .row .icons ul li .button {width: 160px;
-  margin-left:20px;
-  font-size: small;
-  }
-  .page-footer .container .row .icons ul li  .button {width: 35%;
-  left: 200px;
-  bottom: 23px;
-  }
-  }
-
-
-
-  /*----------------------------------------Media query from 992px to 1200px-----------------*/
-  @media screen and (min-width:993px) and (max-width:1200px) {
-  .one .textone h1 {font-size: 30px;}
-  .one .imgone img{width: 95%;}     
-
-  .page-footer .container .row .texts h4 {font-size: small;}
-  .page-footer .container .row .texts span{font-size:small;}
-  .page-footer .container .row .icons ul li {font-size:small;}
-  .page-footer .container .row  .mx-auto ul li{font-size: small;}
-  .page-footer .container .row  p{font-size: small;}
-  .page-footer .container .row a{font-size: small;}
-
-  }
-
+  /*tam wa alhamdullah */

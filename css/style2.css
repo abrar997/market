@@ -98,11 +98,29 @@
 
     article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
     padding: 2px;
+    }
+    @media screen and (min-width:0px) and (max-width:575px){ 
+    .title .titles {margin: auto;} }
+    header .navbar{margin: 0px 0px;
+    background:transparent;
 
+    } 
+    header .navbar .form-inline  input{margin-left: 0px;
+    width: 80px;
+    height: 20px;
+    font-size: 9px;
+    }
+    header .navbar .form-inline  input .fas{font-size: 5px;
+
+    }
+    header .headname{border: 1px soid black;
+    padding: 0px;
+
+    font-size: 10px;
     }
 
     }
-
+    /*-----------------------------------------*/
     .title  {background-color:  rgb(245, 245, 245);
     height:60px;
     }
@@ -132,7 +150,6 @@
     font-size: 15px;
     }
 
-    /*------------------------------------*/
     .oneshop .container .row   .leftlong {border:1px solid rgb(175, 166, 166) ;
     border-radius: 3px;
     height: 510px;
@@ -248,7 +265,7 @@
 
     .oneshop .container .row .i  {display: none;
     }
-
+    .oneshop .container .row .midshop .all  .buttons  .dropdown .btn {margin-right: 20px;}
     }
 
     /*---------------------------------------------*/
@@ -383,35 +400,37 @@
     .page-footer .container .row .icons ul li form{position: relative;
     }
 
-    .page-footer .container .row .icons ul li form input {padding: 10px;
-    margin-top: 10px;
-    width: 250px;
-    border: 1px solid grey ;
-    border-radius: 3px;
-    font-size: 15px;
-    }
+     .page-footer .container .row .icons ul li form input {padding: 5px;
+  margin-top: 10px;
+  width: 200px;
+  border: 1px solid grey ;
+  border-radius: 3px;
+  font-size: 15px;
+margin-right: 50px;
+  }
 
 
-    .page-footer .container .row .icons ul li  .button{position: absolute;
-    background-color: #7971ea;
-    height: 40px;
-    bottom: 23px;
-    left: 239px;
-    width: 23%;
-    border: 1px solid #7971ea;
-    border-radius: 3px;
+  .page-footer .container .row .icons ul li  .button{position: absolute;
+  background-color: #7971ea;
+  height: 30px;
+  bottom: 17px;
+  right: 8px;
+  border: 1px solid #7971ea;
+  border-radius: 3px;
 
-    }
+  }
+  body{overflow-x:hidden ;}
 
-    .page-footer .container .row .icons ul li  .button p{color: rgb(241, 238, 238);
-    text-transform: uppercase;
-    font-size: 13px;
-    text-align: center;
-    padding-top: 10px;
-    letter-spacing: 3px;
 
-    }
-    body{overflow-x:hidden ;}
+  .page-footer .container .row .icons ul li  .button p{color: rgb(241, 238, 238);
+  text-transform: uppercase;
+  font-size: 8px;
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: 3px;
+
+  }
+
 
     .page-footer .container .row .footer-copyright {background-color: transparent;
     }
@@ -420,24 +439,27 @@
     @media screen and (min-width:0px) and (max-width:575px){ 
 
     footer hr {display: none;}
-    .page-footer .container .row .icons ul li  form {width:20%;margin: auto;}
-    .page-footer .container .row .icons ul li .button {width: 20px;
-    margin-left:40px;
-    }
+    .page-footer .container .row .icons ul li .button {width:40px
+  ;font-size: small;
+  right: 79px;
+  top: 75px;
+
+  }
     .page-footer .container .row{width: 400px}
 
     footer img {display: none;}
     .title .container .row .titles {margin: auto;}
-    .page-footer .container .row .texts h4 {font-size: xx-small;}
-    .page-footer .container .row .texts span{font-size: xx-small;}
-    .page-footer .container .row .icons ul li {font-size:smaller ;}
-    .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
-    .page-footer .container .row  p{font-size: smaller;}
-    .page-footer .container .row a{font-size: smaller;}
+    .page-footer .container .row .texts h4 {font-size: small;}
+    .page-footer .container .row .texts span{font-size:small;}
+    .page-footer .container .row .icons ul li {font-size:small ;}
+    .page-footer .container .row  .mx-auto ul li{font-size: small;}
+    .page-footer .container .row  p{font-size: small;}
+    .page-footer .container .row a{font-size: small;}
     .page-footer .container .row  {display: flex;
     flex-flow: row wrap;
     }
     body{overflow-x:hidden ;}
+    footer nav button{ margin: auto;margin-left: 80px;}
     }
 
 
@@ -478,13 +500,13 @@
     .oneshop .container .row  .midshop .card-group .card .card-body i{width: 89%;}
 
     .page-footer img {display: none;}
-    .page-footer .container .row .icons ul li form input .button {padding: 30px;}
-    .page-footer .container .row .texts h4 {font-size: xx-small;}
-    .page-footer .container .row .texts span{font-size: xx-small;}
-    .page-footer .container .row .icons ul li {font-size:smaller ;}
-    .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
-    .page-footer .container .row  p{font-size: smaller;}
-    .page-footer .container .row a{font-size: smaller;}
+    .page-footer .container .row .icons ul li form input .button {padding: 30px;margin-right: 40px;}
+    .page-footer .container .row .texts h4 {font-size: small;}
+    .page-footer .container .row .texts span{font-size: small;}
+    .page-footer .container .row .icons ul li {font-size:small ;}
+    .page-footer .container .row  .mx-auto ul li{font-size: small}
+    .page-footer .container .row  p{font-size: small}
+    .page-footer .container .row a{font-size: small}
     .page-footer hr {display: none;}
 
     }

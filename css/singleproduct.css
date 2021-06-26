@@ -167,11 +167,22 @@
     @media screen and (min-width:0px) and (max-width:575px){ 
     .one {height: 500px;
     }
-    .one .imgone img{width: 100%;
+       .one .container .row  nav   .pagination .page-item{font-size: small;}
+       .one .container .row  nav   .pagination .page-item1{font-size: small;}
+
+       .one .imgone img{width: 100%;
     }
     .one .textone{margin: auto;
     margin-left: 110px;
     }
+    header .navbar .form-inline  input{margin-left: 0px;
+  width: 80px;
+  height: 20px;
+  font-size: 9px;
+  }
+  header .navbar .form-inline  input .fas{font-size: 5px;
+
+  }
     .one .textone h1{font-size: 30px;
     ;margin: auto;
     }
@@ -179,6 +190,9 @@
     ;margin: auto;
 
     }
+     .one .textone .btn{font-size: small;}
+      @media screen and (min-width:0px) and (max-width:575px){ 
+  .title .titles {margin: auto;} }
     }
 
     /*-----------------------------------------------------*/
@@ -296,34 +310,36 @@
     .page-footer .container .row .icons ul li form{position: relative;
     }
 
-    .page-footer .container .row .icons ul li form input {padding: 10px;
-    margin-top: 10px;
-    width: 250px;
-    border: 1px solid grey ;
-    border-radius: 3px;
-    font-size: 15px;
-    }
+     .page-footer .container .row .icons ul li form input {padding: 5px;
+  margin-top: 10px;
+  width: 200px;
+  border: 1px solid grey ;
+  border-radius: 3px;
+  font-size: 15px;
+margin-right: 50px;
+  }
 
 
-    .page-footer .container .row .icons ul li  .button{position: absolute;
-    background-color: #7971ea;
-    height: 40px;
-    bottom: 23px;
-    left: 239px;
-    width: 23%;
-    border: 1px solid #7971ea;
-    border-radius: 3px;
+  .page-footer .container .row .icons ul li  .button{position: absolute;
+  background-color: #7971ea;
+  height: 30px;
+  bottom: 17px;
+  right: 8px;
+  border: 1px solid #7971ea;
+  border-radius: 3px;
 
-    }
+  }
+  body{overflow-x:hidden ;}
 
-    .page-footer .container .row .icons ul li  .button p{color: rgb(241, 238, 238);
-    text-transform: uppercase;
-    font-size: 13px;
-    text-align: center;
-    padding-top: 10px;
-    letter-spacing: 3px;
 
-    }
+  .page-footer .container .row .icons ul li  .button p{color: rgb(241, 238, 238);
+  text-transform: uppercase;
+  font-size: 8px;
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: 3px;
+
+  }
 
     .page-footer .container .row .footer-copyright {background-color: transparent;
 
@@ -334,16 +350,19 @@
 
     footer hr {display: none;}
     .page-footer .container .row .icons ul li  form {width:80%;margin: auto;}
-    .page-footer .container .row .icons ul li .button {width: 100px;
-    margin-left:60px;
-    }
+    .page-footer .container .row .icons ul li .button {width:40px
+  ;font-size: small;
+  right: 105px;
+  top: 74px;
+
+  }
     footer img{display: none;}
-    .page-footer .container .row .texts h4 {font-size: xx-small;}
-    .page-footer .container .row .texts span{font-size: xx-small;}
-    .page-footer .container .row .icons ul li {font-size:smaller ;}
-    .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
-    .page-footer .container .row  p{font-size: smaller;}
-    .page-footer .container .row a{font-size: smaller;}
+    .page-footer .container .row .texts h4 {font-size: small;}
+    .page-footer .container .row .texts span{font-size:small;}
+    .page-footer .container .row .icons ul li {font-size:small ;}
+    .page-footer .container .row  .mx-auto ul li{font-size: small;}
+    .page-footer .container .row  p{font-size: small;}
+    .page-footer .container .row a{font-size: small;}
     .page-footer .container .row  {display: flex;
     flex-flow: row ;
     }
