@@ -1,198 +1,228 @@
-    @media screen and (min-width:0px) and (max-width:575px){ .two .container .row 
-    {margin-top: 1300px;}
-    hr{display: none;}
-    .aboutone .container .row .bigsaleabout .imgsaleabout  img{margin-left: 20px;}
-    .aboutone .container .row  hr{display: none;}
-  .aboutone .container .row{border-bottom: none;}
-    .aboutone .container .row .bigsaleabout{display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin-top: 60px;}
-    .aboutone .container .row .bigsaleabout{font-size: 10px;}
-    
-    .page-footer .container .row {display: flex;
-  flex-flow: row ;
+
+
+  .title  {background-color:  rgb(245, 245, 245);
+  height:60px;
+  }
+
+
+  /* --------------------------------------- */
+  .aboutone .container .row .bigsaleabout {display: flex;
+  flex-flow: row;
   justify-content: space-between;
-  margin: auto;
-  font-size: xx-small;
+  margin-top: 60px;
+
+  }
+
+  .aboutone .container .row .bigsaleabout .imgsaleabout  img{width: 90%;
+
+  }
+
+  .aboutone.container .row .bigsaleabout.textsaleabout{padding-top: 80px;
+
+  }
+
+  .aboutone .container .row .bigsaleabout .textsaleabout h2{color: #7971ea;
+  text-align: center;
+
+  }
+  .aboutone .container .row .bigsaleabout .textsaleabout .upper p{color:rgb(218, 213, 213);
+  text-align: center;
+  text-transform: capitalize;
+  word-spacing: 2px;
+  color: rgb(245, 245, 245);
+  }
+
+
+  .aboutone {border-bottom: 1px solid rgb(238, 235, 235);
+  height: 600px;
+  }
+
+
+  /*--------------------*/
+
+  .section .container .row .card img{width: 50%;}
+
+  .section .container .row .card {background: transparent;
+  box-shadow: none;
+  }
+
+  .section .container .row .card-body .h4{font-size: 20px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .section .container .row .card-body  .upper1 {color:rgb(173, 170, 170);
+  font-size: 12px;
+  }
+
+  .section .container .row .card-body  .lower1{color: rgb(143, 138, 138);;}
+
+
+  .section  {border-bottom: 1px solid rgb(238, 235, 235);
+  height: 500px;}
+  /* -------------------------------------------------------------------------------------------------------------------------- */
+  @media screen and (min-width:0px) and (max-width:575px){ 
+  .title .container .row .titles {margin: auto;} 
+
+  .two .container .row {margin-top: 1300px;}
+
+  .aboutone .container .row .textsaleabout {font-size:smaller}
+  .aboutone .container .row .bigsaleabout .imgsaleabout  img{margin-left: 20px;}
+  .aboutone .container .row  hr{display: none;}
+  .aboutone .container .row .bigsaleabout{display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 60px;}
+  .aboutone .container .row .bigsaleabout{font-size: 10px;}
+  .page-footer .container .row .icons ul li  .button {width: 22%;
+  left: 220px;
+  bottom: 23px;
+  }
+  footer {font-size: -small;}
+  }
+
+
+  /*--------------media query from 576px to 768px-------------------*/
+
+  @media screen and (min-width:576px) and (max-width:768px) {
+  header .navbar{margin: 0px 0px;
+  background:transparent;
+
   } 
-  footer hr {display: none;}
-  .page-footer .container .row .icons ul li .button {width:50px
-    ;font-size: small;
-
-top: 14px;
-
-  }
- header .navbar .form-inline  input{margin-left: 0px;
-  width: 80px;
+  header .navbar .form-inline  input{margin-left: 0px;
+  width: 100px;
   height: 20px;
-  font-size: 9px;
-  }
-  header .navbar .form-inline  input .fas{font-size: 5px;
 
   }
-   @media screen and (min-width:0px) and (max-width:575px){ 
-  .title .titles {margin: auto;} }
-  .page-footer .container .row a{font-size: 10px;}
-  footer {font-size: xx-small;}
-  .page-footer .container .row  ul li {font-size: 5px;}
-  footer img {display: none;}
+  header .navbar .form-inline .fas{font-size: 5px;
+
+  }
+  header .headname{border: 1px soid black;
+  padding: 0px;
+  margin: auto;
+  font-size: 10px;
+  } 
+
+  .navbar-toggler {background-color: #7971ea;
+  height: 20px;
+  width: 30px;}
+
+  article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
+  padding: 2px;
+
+  }
+  .aboutone .container .row .bigsaleabout .imgsaleabout  img{width: 80%;}
+  .aboutone .container .row .bigsaleabout {display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  }
+  .aboutone .container .row .bigsaleabout .textsaleabout h2{font-size: 16px;font-weight: 600;}
+  .aboutone .container .row .bigsaleabout .textsaleabout .upper {font-size:xx-small;}
+
+  .section .container .row .card {display: flex;
+  flex-flow: row wrap;
+  }
+  .section .container .row .card-body .h4 {font-size: xx-small;}
+  .section .container .row .card-body  .upper1{font-size: xx-small;}
+  .section .container .row .card-body  .lower1{font-size: xx-small;}
+
+  .two .container .row .car .fas{font-size: 20px;}
+  .two .container .row a{font-size: 12px;
+  font-weight: 600;}
+  .two .container .row P{font-size: 10px;
+  text-align: center;}
+  .two .container .row .icon .fas{font-size: 8px;}
+  .two .container .row .rota .fas{font-size: 20px;}
+
   .page-footer .container .row .texts h4 {font-size: small;}
   .page-footer .container .row .texts span{font-size: small;}
   .page-footer .container .row .icons ul li {font-size:small ;}
   .page-footer .container .row  .mx-auto ul li{font-size: small;}
   .page-footer .container .row  p{font-size: small;}
   .page-footer .container .row a{font-size: small;}
-  .page-footer .container .row  {display: flex;
-  flex-flow: row ;
+  .page-footer hr {display: none;}
+
+
   }
-  body{overflow-x:hidden ;}
+  /*----------------------------------------Media query from 768px to 992px-----------------*/
+  @media screen and (min-width:768px) and (max-width:992px) {
+  header .navbar{margin: 0px 0px;
+  background:transparent;
+
+  } 
+  header .navbar .form-inline  input{margin-left: 0px;
+  width: 100px;
+  height: 20px;
+
+  }
+  header .navbar .form-inline .fas{font-size: 5px;
+
+  }
+  header .headname{border: 1px soid black;
+  padding:10px;
+  font-size: 10px;
+
+  } 
+
+  .navbar-toggler {background-color: #7971ea;
+  height: 20px;
+  width: 30px;}
+
+  article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
+  padding: 2px;
+  }
+  .aboutone .container .row .bigsaleabout .imgsaleabout  img{padding-top:100px;}
+  .aboutone .container .row .bigsaleabout .textsaleabout .upper p {font-size: smaller}
+  .aboutone.container .row .bigsaleabout.textsaleabout h2{font-size:smaller;}
+
+  .two .container .row i{font-size: xx-small;}
+  .two .container .row .car .fas {font-size: 20px;}
+  .two .container .row .rota .fas{font-size: 20px;}
+  .two .container .row .icon .fas{font-size: 17px;}
+  .two .container .row .rightall  .order  .btn-block {width: 95%;}
 
 
-    }
-    /*--------------media query from 576px to 768px-------------------*/
-
-    @media screen and (min-width:576px) and (max-width:768px) {
-    header .navbar{margin: 0px 0px;
-    background:transparent;
-
-    } 
-    header .navbar .form-inline  input{margin-left: 0px;
-    width: 100px;
-    height: 20px;
-
-    }
-    header .navbar .form-inline .fas{font-size: 5px;
-
-    }
-    header .headname{border: 1px soid black;
-    padding: 0px;
-    margin: auto;
-    font-size: 10px;
-    } 
-
-    .navbar-toggler {background-color: #7971ea;
-    height: 20px;
-    width: 30px;}
-
-    article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
-    padding: 2px;
-
-    }
-    .aboutone .container .row .bigsaleabout .imgsaleabout  img{width: 80%;}
-    .aboutone .container .row .bigsaleabout {display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-
-    }
-    .aboutone .container .row .bigsaleabout .textsaleabout h2{font-size: 16px;font-weight: 600;}
-    .aboutone .container .row .bigsaleabout .textsaleabout .upper {font-size:xx-small;}
-
-    .section .container .row .card {display: flex;
-    flex-flow: row wrap;
-    }
-
-    .section .container .row .card-body .h4 {font-size: xx-small;}
-    .section .container .row .card-body  .upper1{font-size: xx-small;}
-    .section .container .row .card-body  .lower1{font-size: xx-small;}
-    .two .container .row .car .fas{font-size: 20px;}
-    .two .container .row a{font-size: 12px;
-    font-weight: 600;}
-    .two .container .row P{font-size: 10px;
-    text-align: center;}
-    .two .container .row .icon .fas{font-size: 8px;}
-    .two .container .row .rota .fas{font-size: 20px;}
-    .page-footer .container .row .texts h4 {font-size: xx-small;}
-    .page-footer .container .row .texts span{font-size: xx-small;}
-    .page-footer .container .row .icons ul li {font-size:smaller ;}
-    .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
-    .page-footer .container .row  p{font-size: smaller;}
-    .page-footer .container .row a{font-size: smaller;}
-    .page-footer hr {display: none;}
-
-    .page-footer .container .row {display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    }
-    .page-footer .container .row .icons ul li .button {width:30px;
-    margin-left:20px;
-    font-size: small;
-    }
-    .page-footer .container .row .icons ul li .button {width:30px;
-    margin-left:20px;
-    font-size: small;
-    }
-    body{overflow-x:hidden ;}
-
-    }
-    /*----------------------------------------Media query from 768px to 992px-----------------*/
-    @media screen and (min-width:768px) and (max-width:992px) {
-    header .navbar{margin: 0px 0px;
-    background:transparent;
-
-    } 
-    header .navbar .form-inline  input{margin-left: 0px;
-    width: 100px;
-    height: 20px;
-
-    }
-    header .navbar .form-inline .fas{font-size: 5px;
-
-    }
-
-    body{overflow-x:hidden ;}
-
-    header .headname{border: 1px soid black;
-    padding:10px;
-    font-size: 10px;
-
-    } 
-
-    .navbar-toggler {background-color: #7971ea;
-    height: 20px;
-    width: 30px;}
-
-    article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
-    padding: 2px;
-    }
-    .aboutone .container .row .bigsaleabout .imgsaleabout  img{padding-top:100px;}
-    .aboutone .container .row .bigsaleabout .textsaleabout .upper p {font-size: smaller}
-    .aboutone.container .row .bigsaleabout.textsaleabout h2{font-size:smaller;}
-    .two .container .row i{font-size: xx-small;}
-
-    .two .container .row .car .fas {font-size: 20px;}
-    .two .container .row .rota .fas{font-size: 20px;}
-    .two .container .row .icon .fas{font-size: 17px;}
+  .section .container .row .card-body .h4{font-size: 18px}
+  .section .container .row .card-body  .upper1{font-size: smaller;}
+  .section .container .row .card-body  .lower1{font-size:xx-small ;}
+  .section{padding-bottom: 40px;}
 
 
-    .section .container .row .card-body .h4{font-size: 18px}
-    .section .container .row .card-body  .upper1{font-size: smaller;}
-    .section .container .row .card-body  .lower1{font-size:xx-small ;}
-    .section{padding-bottom: 40px;}
+  .page-footer .container .row .texts h4 {font-size: small;}
+  .page-footer .container .row .texts span{font-size: small;}
+  .page-footer .container .row .icons ul li {font-size:small ;}
+  .page-footer .container .row  .mx-auto ul li{font-size: small;}
+  .page-footer .container .row  p{font-size: small;}
+  .page-footer .container .row a{font-size: small;}
+  .page-footer hr {display: none;}
+  .page-footer .container .row .icons ul li .button {width: 160px;
+  margin-left:20px;
+  font-size: small;
+  }
+  .page-footer .container .row .icons ul li  .button {width: 23%;
+  left: 210px;
+  bottom: 23px;
+  }
+  }
+
+  /* ------------------------------------------------------------- */
+  @media screen and (min-width:992px) and (max-width:1200px) {
+  .aboutone .container .row {margin-bottom: -20px;}
+
+  .section .container .row .card-body .h4 {font-size: small;}
+  .section .container .row .card-body  .upper1{font-size: small;}
+  .section .container .row .card-body  .lower1{font-size:small;}
 
 
-    .page-footer .container .row .texts h4 {font-size: small;}
-    .page-footer .container .row .texts span{font-size: small;}
-    .page-footer .container .row .icons ul li {font-size:small ;}
-    .page-footer .container .row  .mx-auto ul li{font-size: small;}
-    .page-footer .container .row  p{font-size: smaller;}
-    .page-footer .container .row a{font-size: smaller;}
-    .page-footer hr {display: none;}
-    footer img{display: none;} 
-    .page-footer .container .row .icons ul li .button {width:30px;
-    margin-left:20px;
-    font-size: small;
-    }
-    .page-footer .container .row .icons {font-size: x-small;}
-    .page-footer .container .row .icons ul li input {width: 40px; padding: 3px;}
-    .page-footer .container .row .icons ul li  .button {width: 30%;
-    left: 215px;
-    bottom: 23px;
-    }
-    .two .container .row .rightall  .order  .btn-block {width: 95%;}
-    }
+  .two .container .row i{font-size: xx-small;}
+  .two .container .row .car .fas {font-size: 20px;}
+  .two .container .row .rota .fas{font-size: 20px;}
+  .two .container .row .icon .fas{font-size: 17px;}
+  .two .container .row {margin-bottom: 200px;}
+  .page-footer .container .row{margin-top: 60px;}
+  .page-footer .container .row .icons ul li  .button {width: 20%;
+  left: 210px;
+  bottom: 23px;
+  }
 
-    .page-footer .container .row{display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    }
+  }

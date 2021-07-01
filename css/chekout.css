@@ -49,14 +49,6 @@
 
   } 
   header .navbar .form-inline  input{margin-left: 0px;
-  width: 80px;
-  height: 20px;
-  font-size: 9px;
-  }
-  header .navbar .form-inline  input .fas{font-size: 5px;
-
-  }
-  header .navbar .form-inline  input{margin-left: 0px;
   width: 100px;
   height: 20px;
 
@@ -123,11 +115,7 @@
   .onecheck .container .row .form {margin-top: 40px;
   }
   /*---------------------------------------------*/
-  @media screen and (min-width:0px) and (max-width:575px){ 
-   .onecheck .container .row .form {width: 40%;
-  padding: 15px;}
-.onecheck .container .row .form p {font-size:smaller} 
-}
+
   /*------------------------------------------*/
   .two .container .row .leftcheck h3{margin-top: 35px;
   margin-bottom: 20px;
@@ -215,26 +203,16 @@
   }
 
   .two {border-bottom: 1px solid rgb(238, 235, 235);
+  padding-bottom: 80px;
   }
 
   /*-------------------------------------------------FOOTER-----*/
 
   @media screen and (min-width:0px) and (max-width:575px){ 
-.two{font-size: smaller;}
+
   .two .container .row .rightall .right form  button{right:90px;
   top: 155px;
-  }
-
-  .two .container .row .rightall .right form  button {right:
-  25px}
-.two .container .row .rightall  .order  .btn-block {padding: 10px;
-margin-right: 10px;
-width: 90%;}
-.two .container .row .rightall .right input {width: 90%;}
-
- .two .container .row .rightall  input {margin: auto;}
- .two .container .row .text  p {font-size: smal ler;}
-}
+  }}
   /*-------------FOOTER--------------------------------------*/
 
   .page-footer .container .row  {margin-top: 60px;
@@ -289,67 +267,56 @@ width: 90%;}
   .page-footer .container .row .icons ul li form{position: relative;
   }
 
-  .page-footer .container .row .icons ul li form input {padding: 5px;
+  .page-footer .container .row .icons ul li form input {padding: 10px;
   margin-top: 10px;
-  width: 200px;
+  width: 250px;
   border: 1px solid grey ;
   border-radius: 3px;
   font-size: 15px;
-margin-right: 50px;
+  outline: none;
   }
 
 
   .page-footer .container .row .icons ul li  .button{position: absolute;
   background-color: #7971ea;
-  height: 30px;
-  bottom: 17px;
-  right: 8px;
+  height: 40px;
+  bottom: 23px;
+  left: 239px;
+  width: 23%;
   border: 1px solid #7971ea;
   border-radius: 3px;
 
-  }
-  body{overflow-x:hidden ;}
 
+  }
 
   .page-footer .container .row .icons ul li  .button p{color: rgb(241, 238, 238);
   text-transform: uppercase;
-  font-size: 8px;
+  font-size: 10px;
   text-align: center;
   padding-top: 10px;
   letter-spacing: 3px;
 
   }
+
   .page-footer .container .row .footer-copyright {background-color: transparent;
 
   }
+
+  
+    .page-footer .container .row .texts .text img {width: 1100px;height: 120px
+   }
+
   /*----------------------------END FIRST PAGE----------------------------------------------------------------------------------------------*/
 
   @media screen and (min-width:0px) and (max-width:575px){ 
 
-    footer hr {display: none;}
-    .page-footer .container .row .icons ul li .button {width:40px
-  ;font-size: small;
-  right: 45px;
-  top: 75px;
-
+  footer hr {display: none;}
+  .page-footer .container .row .icons ul li  form {width:80%;margin: auto;}
+  .page-footer .container .row .icons ul li .button {width: 60px;
+  margin-left:80px;
   }
-   .page-footer .container .row .icons input {margin-left: 40px;}
-    .page-footer .container .row{width: 400px}
+  }                     
 
-    footer img {display: none;}
-    .title .container .row .titles {margin: auto;}
-    .page-footer .container .row .texts h4 {font-size: small;}
-    .page-footer .container .row .texts span{font-size:small;}
-    .page-footer .container .row .icons ul li {font-size:small ;}
-    .page-footer .container .row  .mx-auto ul li{font-size: small;}
-    .page-footer .container .row  p{font-size: small;}
-    .page-footer .container .row a{font-size: small;}
-    .page-footer .container .row  {display: flex;
-    flex-flow: row wrap;
-    }
-    body{overflow-x:hidden ;}
-    footer nav button{ margin: auto;margin-left: 80px;}
-    }
 
   /*media query from 576px to 768px --------------*/
   @media screen and (min-width:576px) and (max-width:768px) {
@@ -374,30 +341,28 @@ margin-right: 50px;
   .navbar-toggler {background-color: #7971ea;
   height: 20px;
   width: 30px;}
-  body{overflow-x:hidden ;}
 
   article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
   padding: 2px;
-
   }
-  .page-footer .container .row .texts h4 {font-size: xx-small;}
-  .page-footer .container .row .texts span{font-size: xx-small;}
-  .page-footer .container .row .icons ul li {font-size:smaller ;}
-  .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
-  .page-footer .container .row  p{font-size: smaller;}
-  .page-footer .container .row a{font-size: smaller;}
+
+  .two .container .row .rightall  .order  .btn-block {width: 95%;}
+ 
+ .page-footer .container .row .texts h4 {font-size: small;}
+  .page-footer .container .row .texts span{font-size: small;}
+  .page-footer .container .row .icons ul li {font-size:small ;}
+  .page-footer .container .row  .mx-auto ul li{font-size: small;}
+  .page-footer .container .row  p{font-size: small;}
+  .page-footer .container .row a{font-size: small;}
   .page-footer hr {display: none;}
-  footer img{display: none;} 
   .page-footer .container .row .icons ul li .button {width: 160px;
   margin-left:20px;
   font-size: small;
   }
-  .page-footer .container .row .icons ul li  .button {width: 15%;
-  left: 310px;
+  .page-footer .container .row .icons ul li  .button {width: 27%;
+  left: 215px;
   bottom: 23px;
   }
-
-  .two .container .row .rightall  .order  .btn-block {width: 95%;}
   }
 
   /*tam walhamdu llellah*/
@@ -407,9 +372,8 @@ margin-right: 50px;
   @media screen and (min-width:768px) and (max-width:992px) {
   header .navbar{margin: 0px 0px;
   background:transparent;
-  } 
-  body{overflow-x:hidden ;}
 
+  } 
   header .navbar .form-inline  input{margin-left: 0px;
   width: 100px;
   height: 20px;
@@ -432,19 +396,21 @@ margin-right: 50px;
   padding: 2px;
 
   }
-  .page-footer .container .row .texts h4 {font-size: xx-small;}
-  .page-footer .container .row .texts span{font-size: xx-small;}
-  .page-footer .container .row .icons ul li {font-size:smaller ;}
-  .page-footer .container .row  .mx-auto ul li{font-size: smaller;}
-  .page-footer .container .row  p{font-size: smaller;}
-  .page-footer .container .row a{font-size: smaller;}
+ 
+  .two .container .row .rightall .right form  button{right:150px;
+  }
+  .page-footer .container .row .texts h4 {font-size: small;}
+  .page-footer .container .row .texts span{font-size: small;}
+  .page-footer .container .row .icons ul li {font-size:small ;}
+  .page-footer .container .row  .mx-auto ul li{font-size: small;}
+  .page-footer .container .row  p{font-size: small;}
+  .page-footer .container .row a{font-size: small;}
   .page-footer hr {display: none;}
-  footer img{display: none;} 
   .page-footer .container .row .icons ul li .button {width: 160px;
   margin-left:20px;
   font-size: small;
   }
-  .page-footer .container .row .icons ul li  .button {width: 35%;
+  .page-footer .container .row .icons ul li  .button {width: 25%;
   left: 200px;
   bottom: 23px;
   }
@@ -453,17 +419,17 @@ margin-right: 50px;
 
   /*----------------------------------------Media query from 992px to 1200px-----------------*/
   @media screen and (min-width:993px) and (max-width:1200px){
-  .two .container .row .rightall .right form  button {top: 155px;
-  left: 260px;
-  }
+
   .page-footer .container .row .texts h4 {font-size: small;}
   .page-footer .container .row .texts span{font-size: small;}
   .page-footer .container .row .icons ul li {font-size:small ;}
   .page-footer .container .row  .mx-auto ul li{font-size: small}
   .page-footer .container .row  p{font-size: small;}
   .page-footer .container .row a{font-size: small;}
-  body{overflow-x:hidden ;}
+    .page-footer .container .row .icons ul li  .button {width: 35%;
+    left: 250px;
 
+    }
   }
 
 
