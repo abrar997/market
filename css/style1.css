@@ -261,8 +261,7 @@
   @media screen and (min-width:0px) and (max-width:575px){ 
   .three .container .row {margin: auto;}
 
-  .three .container .row .boxthree .img-zoom img {width: 400px;
-  height: 400px;
+  .three .container .row .boxthree .img-zoom img {
   overflow:hidden;
   padding-top: 20px;
 
@@ -486,93 +485,7 @@
   footer {margin-right: 100px;
   }}
 
-  /*------------------------tam walhamdu llellah------------------------------*/
-  /*----------------------------------------Media query from 768px to 992px-----------------*/
-  @media screen and (min-width:768px) and (max-width:992px) {
-  header .navbar{margin: 0px 0px;
-  background:transparent;
-
-  } 
-  header .navbar .form-inline  input{margin-left: 0px;
-  width: 100px;
-  height: 20px;
-
-  }
-  header .navbar .form-inline .fas{font-size: 5px;
-
-  }
-  header .headname{border: 1px soid black;
-  padding: 10px;
-  margin: auto;
-  font-size: 10px;
-  } 
-
-  .navbar-toggler {background-color: #7971ea;
-  height: 20px;
-  width: 30px;}
-
-  article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
-  padding: 2px;
-  }
-  .one .container .row  .textone{font-size: smaller;
-  font-weight: 400;
-  }
-  .one .container .row .imgone img{
-  width: 50%;margin-left: 100px;
-  }
-  .one .container .row .textone {margin: auto;}
-
-  .two .container .row a {font-size: small;
-  font-weight: 600;}
-  .two .container .row {font-size: x-small;}
-  .two .container .row i{font-size: xx-small;}
-
-  .two .container .row .car .fas {font-size: 20px;}
-  .two .container .row .rota .fas{font-size: 20px;}
-  .two .container .row .icon .fas{font-size: 17px;}
-
-  .four .container .row .card-body p {font-size: 15px;}
-
-  .four {height: 300px;} 
-
-
-  .five .container .row .bigsale .imgsale img{padding-top: 70px;}
-
-
-
-  .page-footer .container .row .texts h4 {font-size: small;}
-  .page-footer .container .row .texts span{font-size: small;}
-  .page-footer .container .row .icons ul li {font-size:small ;}
-  .page-footer .container .row  .mx-auto ul li{font-size: small;}
-  .page-footer .container .row  p{font-size: small;}
-  .page-footer .container .row a{font-size: small;}
-  .page-footer hr {display: none;}
-  .page-footer .container .row .icons ul li .button {width: 160px;
-  margin-left:20px;
-  font-size: small;
-  }
-  .page-footer .container .row .icons ul li  .button {width: 35%;
-  bottom: 23px;
-  left: 200px;}
-  }
-
-
-
-  /*----------------------------------------Media query from 992px to 1200px-----------------*/
-  @media screen and (min-width:993px) and (max-width:1200px) {
-  .one .textone h1 {font-size: 30px;}
-  .one .imgone img {width: 80%;}
-  .page-footer .container .row .texts h4 {font-size: small;}
-  .page-footer .container .row .texts span{font-size:small;}
-  .page-footer .container .row .icons ul li {font-size:small;}
-  .page-footer .container .row  .mx-auto ul li{font-size: small;}
-  .page-footer .container .row  p{font-size: small;}
-  .page-footer .container .row a{font-size: small;}
-
-  }
-
-
-  /*---------------media query from 576px to 768px----------------------------------------------*/
+/*---------------media query from 576px to 768px----------------------------------------------*/
 
   @media screen and (min-width:576px) and (max-width:768px) {
 
@@ -696,4 +609,86 @@
   .page-footer .container .row a{font-size: small;}
 
 
+  } 
+  /*----------------------------------------Media query from 768px to 992px-----------------*/
+  @media screen and (min-width:768px) and (max-width:992px) {
+  header .navbar{margin: 0px 0px;
+  background:transparent;
+  } 
+  header .navbar .form-inline  input{margin-left: 0px;
+  width: 100px;
+  height: 20px;
   }
+  header .navbar .form-inline .fas{font-size: 5px;
+  }
+  header .headname{border: 1px soid black;
+  padding: 10px;
+  margin: auto;
+  font-size: 10px;
+  } 
+
+  .navbar-toggler {background-color: #7971ea;
+  height: 20px;
+  width: 30px;}
+
+  article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
+  padding: 2px;
+  }
+
+  .one .container .row  .textone{font-size: smaller;
+  font-weight: 400;
+  }
+  .one .container .row .imgone img{
+  width: 50%;margin-left: 100px;
+  }
+  .one .container .row .textone {margin: auto;}
+
+  .two .container .row a {font-size: small;
+  font-weight: 600;}
+  .two .container .row {font-size: x-small;}
+  .two .container .row i{font-size: xx-small;}
+
+  .two .container .row .car .fas {font-size: 20px;}
+  .two .container .row .rota .fas{font-size: 20px;}
+  .two .container .row .icon .fas{font-size: 17px;}
+
+  .four .container .row .card-body p {font-size: 15px;}
+  .four {height: 300px;} 
+
+  .five .container .row .bigsale .imgsale img{padding-top: 70px;}
+
+
+
+  .page-footer .container .row .texts h4 {font-size: small;}
+  .page-footer .container .row .texts span{font-size: small;}
+  .page-footer .container .row .icons ul li {font-size:small ;}
+  .page-footer .container .row  .mx-auto ul li{font-size: small;}
+  .page-footer .container .row  p{font-size: small;}
+  .page-footer .container .row a{font-size: small;}
+  .page-footer hr {display: none;}
+  .page-footer .container .row .icons ul li .button {width: 160px;
+  margin-left:20px;
+  font-size: small;
+  }
+  .page-footer .container .row .icons ul li  .button {width: 35%;
+  bottom: 23px;
+  left: 200px;}
+  }
+
+
+
+  /*----------------------------------------Media query from 992px to 1200px-----------------*/
+  @media screen and (min-width:993px) and (max-width:1200px) {
+  .one .textone h1 {font-size: 30px;}
+  .one .imgone img {width: 80%;}
+  .page-footer .container .row .texts h4 {font-size: small;}
+  .page-footer .container .row .texts span{font-size:small;}
+  .page-footer .container .row .icons ul li {font-size:small;}
+  .page-footer .container .row  .mx-auto ul li{font-size: small;}
+  .page-footer .container .row  p{font-size: small;}
+  .page-footer .container .row a{font-size: small;}
+
+  }
+
+
+  

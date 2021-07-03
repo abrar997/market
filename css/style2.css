@@ -177,8 +177,8 @@
   font-weight: 00px;
   }
   .oneshop .container .row .hero {height: 170px ;
-          width: 200px;padding:auto;padding-left: 20px;
-            padding-top: 20px;}
+      width: 200px;padding:auto;padding-left: 20px;
+        padding-top: 20px;}
   /*----------------------------------------------*/
 
   .oneshop .container .row   .midshop  h4{padding-top: 30px;
@@ -327,17 +327,12 @@
 
   @media screen and (min-width:0px) and (max-width:575px){ 
   .three .container .row {margin: auto;}
-  .three .container .row .boxthree .img-zoom{overflow: hidden;}
-  .three .container .row .boxthree .img-zoom img {width: 400px;
-  height: 400px;
-  overflow:hidden;
+
+  .three .container .row .boxthree .img-zoom img {
   padding-top: 20px;
-  margin-left: 10px;
+  overflow:hidden;
 
   }
-
-  .three .container .row .threetext :after {margin-left: 10px;}
-
   }
 
   /*----------------------------------    END SECTION  ---------------------------------*/
@@ -433,18 +428,9 @@
 
   }
   /*------------------------------media query------*/
-  @media screen and (min-width:0px) and (max-width:575px){ 
+  @media screen and (min-width:0px) and (max-width:575px){
 
 
-  .three .container .row .boxthree {width: 40%;
-  height: 40%;
-  }
-
-
-  .three .container .row .boxthree {display: flex;
-  flex-flow: row;
-  justify-content: space-around;
-  }
 
   .page-footer .container .row hr {display: none;}
   .page-footer .container .row .icons ul li  form {width:80%;
@@ -498,6 +484,23 @@
   width: 150px;
   }
 
+  .three {margin-top: 70px;}
+  .three .container .row {margin: auto;}
+  .three .container .row .boxthree {display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  }
+  .three .container .row .boxthree .img-zoom {width: 80%;
+  height: 300px;
+  margin-left: 10px;
+  padding: 10px;overflow:hidden;
+  } 
+  .three .container .row .boxthree  {
+  margin-top: 30px;
+  }
+
+
   .page-footer .container .row .icons ul li form input .button {padding: 30px;
   margin-right: 40px;}
   .page-footer .container .row .texts h4 {font-size: small;
@@ -530,15 +533,12 @@
 
   header .navbar{margin: 0px 0px;
   background:transparent;
-
   } 
   header .navbar .form-inline  input{margin-left: 0px;
   width: 100px;
   height: 20px;
-
   }
   header .navbar .form-inline .fas{font-size: 5px;
-
   }
   header .headname{border: 1px soid black;
   padding: 0px;
@@ -553,17 +553,16 @@
   article .navbar .collapse .navbar-nav .nav-item .nav-link{font-size: 10px;
   padding: 2px;
   }
+
   .oneshop .container .row  .midshop .card-group .card .card-body h4{font-size: smaller;
   line-height: 3px;
-
   }
   .oneshop .container .row  .midshop .card-group .card .card-body i{width: 89%;  
   }
   .oneshop img {height: 150px;
   width: 150px;
   }
-
-  .one .container .row .textone {margin: auto;}
+  .oneshop .container .row .textone {margin: auto;}
 
   .two .container .row a {font-size: small;font-weight: 600;}
   .two .container .row {font-size: x-small;}
@@ -572,7 +571,6 @@
   .two .container .row .rota .fas{font-size: 20px;}
   .two .container .row .icon .fas{font-size: 17px;}
   .two .container .row .rightall  .order  .btn-block {width: 95%;}
-
 
   .four .container .row .card-body p {font-size: 15px;}
 
