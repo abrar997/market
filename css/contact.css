@@ -1,0 +1,41 @@
+.one .container .row {
+margin-top: 50px;
+margin-bottom: 90px;
+}
+
+.one img{height: 280px;
+
+}
+
+.one .container .row .card-body  {background-color: #dcdbeb;}
+
+.one i{font-size: 30px;
+border: 1px solid #7971ea;
+border-radius: 50%;
+padding: 10px
+;
+}
+
+.one a .fa-facebook-f {background-color: #7971ea;
+color: white;
+}
+
+.one a  .fa-facebook-f:hover {background-color:white;
+color: #7971ea;
+}
+
+.one a .fa-twitter{background-color: rgb(107, 18, 18);
+color: white;
+}
+
+.one a .fa-twitter:hover{background-color: white;
+color: rgb(107, 18, 18);
+}
+
+.one a .fa-instagram{background-color: rgb(180, 180, 67);
+color: white;
+}
+
+.one a .fa-instagram:hover{background-color: white;
+color: rgb(180, 180, 67);
+}
