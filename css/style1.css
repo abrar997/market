@@ -387,12 +387,13 @@
 
   @media screen and (min-width:0px) and (max-width:575px) {
 
-  header .navbar .form-inline  input{margin-left: 0px;
+  header .navbar .form-inline  input{
   width: 80px;
   height: 20px;
 
   }
-header {width: 500px;}
+  body{overflow-x: hidden;}
+header {width: 400px;}
 
   header .navbar .form-inline .fas{font-size: 5px;
   }
