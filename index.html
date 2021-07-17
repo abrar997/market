@@ -26,7 +26,16 @@
   <link rel="stylesheet" href="css/style1.css">
 </head>
 
-<body>
+<body id="color">
+
+<!-- you can find task:
+1** dark mode by click on the light 
+2**increase and decrease by button in sigle page
+3**log in validation in shop page by  click on any prouct you will find new page call log in 
+4**accordation in shop page on the left of the page in section called Our Special Group 
+5** javascript file call shop in js folder 
+-->
+
   <!------------------------------------HEADER --------------------->
   <header>
     <div class="container">
@@ -39,11 +48,20 @@
 
         <div class="headname ">Abrar Muthanna Rakea</div>
         <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li><i class="fa fa-lightbulb" style="font-size: 26px;
+             color: #9c609c;
+            margin-top: 4px;
+          " onclick="changecolor(this)" id="icons"></i>
+
+          </li>
+
+
           <li class="nav-item">
             <a class="nav-link waves-effect waves-light">
               <i class="fas fa-user hvr-grow-shadow"></i>
             </a>
           </li>
+
           <li class="nav-item ">
             <a class="nav-link waves-effect waves-light">
               <i class="far fa-heart hvr-grow-shadow" style="font-size:20px"></i>
@@ -54,7 +72,8 @@
               aria-expanded="false">
               <i class="fas fa-shopping-cart hvr-grow-shadow" style="position: relative;"></i>
               <span id="navbarNotificationCounter" class="badge rounded-pill badge-notification hvr-float-shadow"
-                alt="Notifications" style="background: #7971ea; position: absolute;bottom: 24px;right: 5px;">2</span>
+                alt="Notifications"
+                style="background: #7971ea !important ; position: absolute;bottom: 24px;right: 5px;">2</span>
             </a>
           </li>
         </ul>
@@ -68,20 +87,22 @@
 
   <!------------------------  NAV LINKS--------------------------------->
   <article>
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg">
       <!-- Collapse button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
         aria-controls="basicExampleNav" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "><i class="fas fa-align-justify"
-            style="color: white; font-size: 13px;padding-bottom: 19px;padding-right: 19px;"></i>
-        </span>
       </button>
 
       <!-- Collapsible content -->
-      <div class="collapse navbar-collapse" id="basicExampleNav">
+      <div class="collapse navbar-collapse">
 
         <!-- Links -->
-        <ul class="navbar-nav ">
+        <ul class="navbar-nav " id="myslidenav">
+
+          <li> <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-ellipsis-h" style="font-size: 19px;
+         padding-top: 30px;color: #7971ea;
+                "></i> </span>
+          </li>
           <li class="nav-item active">
             <a class="nav-link" href="index.html" style="color:#7971ea;">Home
             </a>
@@ -99,361 +120,384 @@
             <a class="nav-link" href="#">New arrivals </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">contact</a>
+            <a class="nav-link" href="#">contact</a>
           </li>
+
+
+
         </ul>
         <!-- Links -->
     </nav>
     <!--/.Navbar-->
+
   </article>
+
   <!------------------------ END NAV LINKS --------------------------------->
-
+  <!-- 
+        nav bar
+           -->
+  <section class="navside">
+    <div class="container">
+      <div class="row">
+        <div id="mySidenav" class="sidenav">
+          <!-- icon cloes nav  -->
+          <a href="javascript:void(0)" class="closebtn pl-3" onclick="closeNav()"><i class="fas fa-ellipsis-v"></i></a>
+          <!-- links of more information or to contact -->
+          <a href="#">New Products </a>
+          <a href="#">Rate of users </a>
+          <a href="#">Privacy</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
   <!------------------------ SECTION ONE--------------------------------->
-
-  <section class="one">
-    <div class="container">
-      <div class="row">
-        <div class="imgone col-xl-7  col-lg-7 col-sm-12 col-md-12"><img src="img/hero_1.png" alt=""></div>
-        <div class="textone col-xl-5  col-lg-5 col-sm-12 col-md-12">
-          <h1> finding your<br> perfect shoes</h1>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
-            tincidunt
-            fringilla.</p>
-          <a href="shop.html">
-            <div class="btn hvr-float-shadow">shop now</div>
-          </a>
-        </div>
-      </div>
-  </section>
-  <!------------------------ END SECTION ONE--------------------------------->
-
-  <!------------------------ SECTION TWO--------------------------------->
-  <section class="two">
-    <div class="container">
-      <div class="row">
-        <div class="car col-xl-4 col-md-4 col-sm-12"><i class="fas fa-truck  icon-flipped "></i>
-          <a>free shopping</a>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
-            tincidunt
-            fringilla.</p>
-        </div>
-        <div class="rota col-xl-4  col-md-4 col-sm-12"><i class="fas fa-redo"></i>
-          <a> free returns</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
-            tincidunt
-            fringilla.</p>
-        </div>
-        <div class="icon col-xl-4  col-md-4 col-sm-12"><i class="fas fa-question"></i>
-          <a> customer support</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
-            tincidunt
-            fringilla.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!------------------------END SECTION TWO--------------------------------->
-
-
-  <!--------------------------SECTION THREE----------------------------------->
-  <section class="three" style="padding-top: 30px;">
-    <div class="container">
-      <div class="row ">
-
-        <div class="boxthree col-xl-4 col-md-3 col-sm-6 ">
-          <div class=" img-zoom  view " style="position: relative;"><img src="img/women.jpg" alt="" class="img-fluid">
-          </div>
-
-          <div class="threetext">
-            <p>collections</p>
-            <h3>woman</h3>
-          </div>
-        </div>
-        <div class="boxthree col-xl-4 col-md-4 col-sm-6">
-          <div class="kidsimg img-zoom"><img src="img/children.jpg" alt="" class="img-fluid"></div>
-          <div class="threetext">
-            <p>collections</p>
-            <h3>children</h3>
-
-          </div>
-        </div>
-        <div class="boxthree col-xl-4 col-md-4 col-sm-6">
-          <div class="manimg img-zoom"><img src="img/men.jpg" alt="" class="img-fluid"></div>
-          <div class="threetext">
-            <p>collections</p>
-            <h3>man</h3>
-
-          </div>
-
-        </div>
-      </div>
-  </section>
-  <!-------------------------- END SECTION THREE----------------------------------->
-
-
-  <!------------------------------SECTION FOUR---------------------------------->
-  <section class="four">
-    <div class="container">
-      <div class="row">
-        <h1 style="border-bottom: 2px solid #7971ea;
-        margin: auto; color:rgb(245, 245, 245);">....</h1>
-      </div>
-      <div class="row">
-        <div class="hfour">featured product</div>
-      </div>
-      <div class="row">
-        <!-- Grid column -->
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-
-          <!--Card-->
-          <div class="card">
-
-            <!--Card image-->
-            <div class="view">
-              <img src="img/cloth_1.jpg" class="card-img-top" alt="photo">
-              <a href="#">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body">
-              <!--Title-->
-              <h4 class="card-title">tank Top </h4>
-              <!--Text-->
-              <p class="card-text">finding perfect-shirt</p>
-              <span> $50 </span>
-            </div>
-
-          </div>
-          <!--/.Card-->
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-
-          <!--Card-->
-          <div class="card">
-
-            <!--Card image-->
-            <div class="view">
-              <img src="img/shoe.png" class="card-img-top" alt="photo">
-              <a href="#">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body">
-              <!--Title-->
-              <h4 class="card-title">corator</h4>
-              <!--Text-->
-              <p class="card-text">finding perfect product</p>
-              <span>$50</span>
-              <br><br>
-            </div>
-
-          </div>
-          <!--/.Card-->
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-
-          <!--Card-->
-          <div class="card">
-
-            <!--Card image-->
-            <div class="view">
-              <img src="img/cloth_2.jpg" class="card-img-top" alt="photo">
-              <a href="#">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body">
-              <!--Title-->
-              <h4 class="card-title">polo shirt</h4>
-              <!--Text-->
-              <p class="card-text">finding perfect product</p>
-              <span>$50</span>
-            </div>
-
-          </div>
-          <!--/.Card-->
-
-        </div>
-        <!-- Grid column -->
-
-      </div>
-    </div>
-  </section>
-  <!-----------------------------END SECTION FOUR---------------------------------->
-
-  <!-----------------------------SECTION FIVE---------------------------------->
-  <section class="five">
-    <div class="container">
-      <div class="row">
-        <h1 style="border-bottom: 2px solid #7971ea;
-        margin: auto; color:white;">....</h1>
-      </div>
-      <div class="row">
-        <div class="hfive">big sale !</div>
-      </div>
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="bigsale ">
-          <div class="imgsale col-xl-7 col-lg-6 col-md-6 col-sm-4"><img src="img/blog_1.jpg" alt=""> </div>
-          <div class="textsale  col-xl-5 col-lg-6 col-md-6 col-sm-8">
-            <h2>50% less in all itmes</h2>
-            <p class="upper">by <span>carl smith</span> <strong>.</strong></b> september 3,2018</p>
-            <p class="lower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer
-              accumsan
+  <div id="allsections">
+    <section class="one">
+      <div class="container">
+        <div class="row ">
+          <div class="imgone col-xl-7  col-lg-7 col-sm-12 col-md-12 mt-4"><img src="img/hero_1.png" alt=""></div>
+          <div class="textone col-xl-5  col-lg-5 col-sm-12 col-md-12">
+            <h1> finding your<br> perfect shoes</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
               tincidunt
-              fringilla.Ex,venam ? </p>
+              fringilla.</p>
             <a href="shop.html">
-              <div class="btn hvr-float-shadow ">shop now</div>
+              <div class="btn hvr-float-shadow">shop now</div>
             </a>
           </div>
+        </div>
+    </section>
+    <!------------------------ END SECTION ONE--------------------------------->
+
+    <!------------------------ SECTION TWO--------------------------------->
+    <section class="two">
+      <div class="container">
+        <div class="row">
+          <div class="car col-xl-4 col-md-4 col-sm-12"><i class="fas fa-truck  icon-flipped "></i>
+            <a>free shopping</a>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
+              tincidunt
+              fringilla.</p>
+          </div>
+          <div class="rota col-xl-4  col-md-4 col-sm-12"><i class="fas fa-redo"></i>
+            <a> free returns</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
+              tincidunt
+              fringilla.</p>
+          </div>
+          <div class="icon col-xl-4  col-md-4 col-sm-12"><i class="fas fa-question"></i>
+            <a> customer support</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
+              tincidunt
+              fringilla.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------END SECTION TWO--------------------------------->
+
+
+    <!--------------------------SECTION THREE----------------------------------->
+    <section class="three" style="padding-top: 30px;">
+      <div class="container">
+        <div class="row ">
+
+          <div class="boxthree col-xl-4 col-md-3 col-sm-6 ">
+            <div class=" img-zoom  view " style="position: relative;"><img src="img/women.jpg" alt="" class="img-fluid">
+            </div>
+
+            <div class="threetext">
+              <p>collections</p>
+              <h3>woman</h3>
+            </div>
+          </div>
+          <div class="boxthree col-xl-4 col-md-4 col-sm-6">
+            <div class="kidsimg img-zoom"><img src="img/children.jpg" alt="" class="img-fluid"></div>
+            <div class="threetext">
+              <p>collections</p>
+              <h3>children</h3>
+
+            </div>
+          </div>
+          <div class="boxthree col-xl-4 col-md-4 col-sm-6">
+            <div class="manimg img-zoom"><img src="img/men.jpg" alt="" class="img-fluid"></div>
+            <div class="threetext">
+              <p>collections</p>
+              <h3>man</h3>
+
+            </div>
+
+          </div>
+        </div>
+    </section>
+    <!-------------------------- END SECTION THREE----------------------------------->
+
+
+    <!------------------------------SECTION FOUR---------------------------------->
+    <section class="four">
+      <div class="container">
+        <div class="row">
+          <h1 style="border-bottom: 2px solid #7971ea;
+        margin: auto; color:rgb(245, 245, 245);">....</h1>
+        </div>
+        <div class="row">
+          <div class="hfour">featured product</div>
+        </div>
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view">
+                <img src="img/cloth_1.jpg" class="card-img-top" alt="photo">
+                <a href="#">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">tank Top </h4>
+                <!--Text-->
+                <p class="card-text">finding perfect-shirt</p>
+                <span> $50 </span>
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view">
+                <img src="img/shoe.png" class="card-img-top" alt="photo">
+                <a href="#">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">corator</h4>
+                <!--Text-->
+                <p class="card-text">finding perfect product</p>
+                <span>$50</span>
+                <br><br>
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view">
+                <img src="img/cloth_2.jpg" class="card-img-top" alt="photo">
+                <a href="#">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">polo shirt</h4>
+                <!--Text-->
+                <p class="card-text">finding perfect product</p>
+                <span>$50</span>
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!-- Grid column -->
 
         </div>
       </div>
-  </section>
-  <!-----------------------------END SECTION FIVE---------------------------------->
+    </section>
+    <!-----------------------------END SECTION FOUR---------------------------------->
 
-  <!----------------------------- FOOTER--------------------------------------->
-  <footer class="page-footer font-small pt-4">
-
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left">
-
-      <!-- Footer links -->
-      <div class="row text-center text-md-left mt-3 pb-3">
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2  col-sm-4 mx-auto mb-2">
-          <h6 class="text mb-4 font-weight-bold">Navigations</h6>
-          <ul>
-            <a href="#!">
-              <li> sell online</li>
-            </a>
-            <a href="#!">
-              <li>features</li>
-            </a>
-
-            <a href="#!">
-              <li>shopping cart</li>
-            </a>
-
-            <a href="#!">
-              <li>store builder</li>
-            </a>
-          </ul>
+    <!-----------------------------SECTION FIVE---------------------------------->
+    <section class="five">
+      <div class="container">
+        <div class="row">
+          <h1 style="border-bottom: 2px solid #7971ea;
+        margin: auto; color:white;">....</h1>
         </div>
-        <!-- Grid column -->
+        <div class="row">
+          <div class="hfive">big sale !</div>
+        </div>
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="bigsale ">
+            <div class="imgsale col-xl-7 col-lg-6 col-md-6 col-sm-4"><img src="img/blog_1.jpg" alt=""> </div>
+            <div class="textsale  col-xl-5 col-lg-6 col-md-6 col-sm-8">
+              <h2>50% less in all itmes</h2>
+              <p class="upper">by <span>carl smith</span> <strong>.</strong></b> september 3,2018</p>
+              <p class="lower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam.
+                Integer
+                accumsan
+                tincidunt
+                fringilla.Ex,venam ? </p>
+              <a href="shop.html">
+                <div class="btn hvr-float-shadow ">shop now</div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+    </section>
+    <!-----------------------------END SECTION FIVE---------------------------------->
+
+    <!----------------------------- FOOTER--------------------------------------->
+    <footer class="page-footer font-small pt-4">
+
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+
+        <!-- Footer links -->
+        <div class="row text-center text-md-left mt-3 pb-3">
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2  col-sm-4 mx-auto mb-2">
+            <h6 class="text mb-4 font-weight-bold">Navigations</h6>
+            <ul>
+              <a href="#!">
+                <li> sell online</li>
+              </a>
+              <a href="#!">
+                <li>features</li>
+              </a>
+
+              <a href="#!">
+                <li>shopping cart</li>
+              </a>
+
+              <a href="#!">
+                <li>store builder</li>
+              </a>
+            </ul>
+          </div>
+          <!-- Grid column -->
 
 
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2  col-sm-4  mx-auto mt-4">
-          <h6 class="text mb-4 font-weight-bold d-hidden"></h6>
-          <ul>
-            <a href="#!">
-              <li>mobile commerce</li>
-            </a>
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2  col-sm-4  mx-auto mt-4">
+            <h6 class="text mb-4 font-weight-bold d-hidden"></h6>
+            <ul>
+              <a href="#!">
+                <li>mobile commerce</li>
+              </a>
 
-            <a href="#!">
-              <li>Dropshopping</li>
-            </a>
+              <a href="#!">
+                <li>Dropshopping</li>
+              </a>
 
-            <a href="#!">
-              <li>website development</li>
-            </a>
-          </ul>
+              <a href="#!">
+                <li>website development</li>
+              </a>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2  col-sm-3 mx-auto mt-4">
+            <h6 class="text-uppercase mb-4 font-weight-bold"></h6>
+            <ul>
+              <a href="#!">
+                <li>point of sale</li>
+              </a>
+              <a href="#!">
+                <li>hardware</li>
+              </a>
+              <a href="#!">
+                <li>software</li>
+              </a>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-lg-3.5 col-xl-3.5  col-sm-4 mx-auto mt-3 texts">
+            <h6 class="text mb-4 font-weight-bold">Promo</h6>
+            <img src="img/hero_1.jpg" alt="" class="col-lg-12 ml-4 img">
+            <h4>
+              <a href="#!">finding your perfect shoes</a>
+            </h4>
+            <span style="color:rgb(123, 123, 124) ;">promo from nuary 15__25 ,2019</span>
+          </div>
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none">
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-18 col-xl-3  col-sm-8 mx-auto mt-3 icons">
+            <h6 class="text mb-4 font-weight-bold">Contact Info</h6>
+            <ul>
+              <a href="#!">
+                <li><i class="fas fa-map-marker-alt"></i> Havalan,Erbil _Iraq</li>
+              </a>
+              <a href="#!">
+                <li><i class="fas fa-phone-alt"></i> +9647831190254</li>
+              </a>
+              <a href="#!">
+                <li><i class="fas fa-envelope"></i> abraralrawi97@gmail.com
+                </li>
+              </a>
+              <a href="#!" class="mt-4 sub">
+                <li style="font-size: 20px;padding-top: 10px;" class="mt-4">Subscribe <br>
+                  <form action="" class="mt">
+                    <input type="serach" placeholder="Email">
+                  </form>
+                  <div class="button  hvr-float-shadow">
+                    <p>send</p>
+                  </div>
+
+                </li>
+              </a>
+            </ul>
+          </div>
+          <!-- Grid column -->
 
         </div>
-        <!-- Grid column -->
-
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2  col-sm-3 mx-auto mt-4">
-          <h6 class="text-uppercase mb-4 font-weight-bold"></h6>
-          <ul>
-            <a href="#!">
-              <li>point of sale</li>
-            </a>
-            <a href="#!">
-              <li>hardware</li>
-            </a>
-            <a href="#!">
-              <li>software</li>
-            </a>
-          </ul>
-        </div>
-
-        <div class="col-md-3 col-lg-3.5 col-xl-3.5  col-sm-4 mx-auto mt-3 texts">
-          <h6 class="text mb-4 font-weight-bold">Promo</h6>
-          <img src="img/hero_1.jpg" alt="" class="col-lg-12 ml-4 img">
-          <h4>
-            <a href="#!">finding your perfect shoes</a>
-          </h4>
-          <span style="color:rgb(123, 123, 124) ;">promo from nuary 15__25 ,2019</span>
-        </div>
-        <!-- Grid column -->
-        <hr class="w-100 clearfix d-md-none">
-
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-18 col-xl-3  col-sm-8 mx-auto mt-3 icons">
-          <h6 class="text mb-4 font-weight-bold">Contact Info</h6>
-          <ul>
-            <a href="#!">
-              <li><i class="fas fa-map-marker-alt"></i> Havalan,Erbil _Iraq</li>
-            </a>
-            <a href="#!">
-              <li><i class="fas fa-phone-alt"></i> +9647831190254</li>
-            </a>
-            <a href="#!">
-              <li><i class="fas fa-envelope"></i> abraralrawi97@gmail.com
-              </li>
-            </a>
-            <a href="#!" class="mt-4 sub">
-              <li style="font-size: 20px;padding-top: 10px;" class="mt-4">Subscribe <br>
-                <form action="" class="mt">
-                  <input type="serach" placeholder="Email">
-                </form>
-                <div class="button  hvr-float-shadow">
-                  <p>send</p>
-                </div>
-
-              </li>
-            </a>
-          </ul>
-        </div>
-        <!-- Grid column -->
-
+        <!-- Footer links -->
       </div>
-      <!-- Footer links -->
-    </div>
-    <!-- Grid column -->
+      <!-- Grid column -->
 
-    </div>
-    <!-- Grid row -->
+  </div>
+  <!-- Grid row -->
 
-    </div>
-    <!-- Footer Links -->
-    <div class="footer-copyright text-center py-3 mt-4"
-      style="background: transparent; color: rgb(179, 173, 173); font-weight: 600;">Copyright© 2021
-      All rights reserved | This template is made with <i class="fas fa-heart"></i> by <span style="color: #7971ea;">
-        AbrarMuthanna</a> </span>
-    </div>
-    <!-- Footer -->
-    </div>
-    </div>
+  </div>
+  <!-- Footer Links -->
+  <div class="footer-copyright text-center py-3 mt-4"
+    style="background: transparent; color: rgb(179, 173, 173); font-weight: 600;">Copyright© 2021
+    All rights reserved | This template is made with <i class="fas fa-heart"></i> by <span style="color: #7971ea;">
+      AbrarMuthanna</a> </span>
+  </div>
+  <!-- Footer -->
+  </div>
+  </div>
 
   </footer>
   <!-----------------------------END FOOTER---------------------------------->
@@ -490,6 +534,9 @@
   <script>
     feather.replace()
   </script>
+  <script src="js/shop.js"></script>
+
+
 </body>
 
 </html>

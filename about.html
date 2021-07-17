@@ -42,6 +42,12 @@
 
                 <div class="headname ">Abrar Muthanna Rakea</div>
                 <ul class="navbar-nav ml-auto nav-flex-icons">
+                    <li><i class="fa fa-lightbulb" style="font-size: 30px;
+                                            color: #9c609c;
+                                            " onclick="changecolor(this)" id="icons"></i>
+                    
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link waves-effect waves-light">
                             <i class="fas fa-user hvr-grow-shadow"></i>
@@ -69,7 +75,25 @@
 
     </header>
     <!--------------------------------END HEADER---------->
-    
+    <!-- 
+            nav bar
+               -->
+    <section class="navside">
+        <div class="container">
+            <div class="row">
+                <div id="mySidenav" class="sidenav">
+                    <!-- icon cloes nav  -->
+                    <a href="javascript:void(0)" class="closebtn pl-3" onclick="closeNav()"><i
+                            class="fas fa-ellipsis-v"></i></a>
+                    <!-- links of more information or to contact -->
+                    <a href="#">New Products </a>
+                    <a href="#">Rate of users </a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
 <!-- --------------------------NAV LINKS--------------- -->
     <article>
         <nav class="navbar navbar-expand-lg ">
@@ -86,6 +110,9 @@
 
                 <!-- Links -->
                 <ul class="navbar-nav ">
+                    <li> <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-ellipsis-h" style="font-size: 19px;
+                             padding-top: 30px;color: #7971ea;
+                                    "></i> </span>
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html" style="color:#7971ea;">Home
                         </a>
@@ -489,6 +516,8 @@
     <script>
         feather.replace()
     </script>
+
+    <script src="js/shop.js"></script>
 </body>
 
 </html>

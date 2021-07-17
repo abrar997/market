@@ -40,6 +40,12 @@
 
                 <div class="headname ">Abrar Muthanna Rakea</div>
                 <ul class="navbar-nav ml-auto nav-flex-icons">
+                    <li><i class="fa fa-lightbulb" style="font-size: 30px;
+                                            color: #9c609c;
+                                            " onclick="changecolor(this)" id="icons"></i>
+
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link waves-effect waves-light">
                             <i class="fas fa-user hvr-grow-shadow"></i>
@@ -83,6 +89,10 @@
 
                 <!-- Links -->
                 <ul class="navbar-nav ">
+                    <li> <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-ellipsis-h"
+                                style="font-size: 19px;
+                             padding-top: 30px;color: #7971ea;
+                                    "></i> </span>
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html" style="color:#7971ea;">Home
                         </a>
@@ -100,7 +110,7 @@
                         <a class="nav-link" href="#">New arrivals </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">contact</a>
+                        <a class="nav-link" href="#">contact</a>
                     </li>
                 </ul>
                 <!-- Links -->
@@ -109,7 +119,23 @@
     </article>
     <!------------------------ END NAV LINKS--------------------------------->
 
-
+    <!-- top navbar -->
+    <section class="navside">
+        <div class="container">
+            <div class="row">
+                <div id="mySidenav" class="sidenav">
+                    <!-- icon cloes nav  -->
+                    <a href="javascript:void(0)" class="closebtn pl-3" onclick="closeNav()"><i
+                            class="fas fa-ellipsis-v"></i></a>
+                    <!-- links of more information or to contact -->
+                    <a href="#">New Products </a>
+                    <a href="#">Rate of users </a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--------------------------SECTION TITLE---------------------------------->
     <section class="title">
         <div class="container">
@@ -185,8 +211,83 @@
                                 <p><i class="far fa-circle ml-3"
                                         style="background: purple;font-size: 15px; border-radius: 100%;"></i> Purple
                                     (1,075) </p>
-
                             </div>
+
+                                <!-- accordation -->
+
+                            <div class="mt-4 pt-4">
+                                <h2 style="background-color: #7971ea;
+                                color: white;
+                                font-size: 22px;
+                            padding: 10px;
+                            margin-top: 40px;
+                            text-align: center;
+                                ">Our Special Group </h2>
+
+                                <button class="accordion">shoes </button>
+                                <div class="panel">
+                                    <ul>
+                                        <li><img src="img/shoe1.jpg" alt=""><br><br><br><br><br><br>
+
+                                            <p class="">50$</p>
+                                            <p class="ml-auto">color:black,grey,white</p>
+                                            <p class="ml-auto">size:39,40,41....44</p>
+                                            <span class="table-add"><button type="button"
+                                                    class="btn  btn-rounded btn-sm my-0" style="background-color: #7971ea;
+                                                        width:60px;
+                                                        color: white;
+                                                        font-size: 15px;">
+                                                    +
+                                                </button></span>
+
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="accordion">Top Tank</button>
+                                <div class="panel">
+                                    <ul>
+                                        <li><img src="img/toptank.jpg" alt=""><br><br><br><br><br><br>
+
+                                            <p class="">50$</p>
+                                            <p class="ml-auto">color:pink,red,white</p>
+                                            <p class="ml-auto">size:39,40,41....44</p>
+                                            <span class="table-add"><button type="button"
+                                                    class="btn  btn-rounded btn-sm my-0" style="background-color: #7971ea;
+                                                                                                width:60px;
+                                                                                                color: white;
+                                                                                                font-size: 15px;">
+                                                    +
+                                                </button></span>
+
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="accordion">T-shirt</button>
+                                <div class="panel" style="border-bottom: 1px solid rgb(214, 214, 214) ;">
+                                    <ul>
+                                        <li><img src="img/tshirt.jpg" alt="" class="mt-3"><br>
+                                            <br><br><br><br>
+
+                                            <p class="">50$</p>
+                                            <p class="ml-auto">Color:red,blue,black,white</p>
+                                            <p class="ml-auto">size:39,40,41....44</p>
+                                            <span class="table-add"><button type="button"
+                                                    class="btn  btn-rounded btn-sm my-0" style="background-color: #7971ea;
+                                                 width:60px;
+                                                color: white;
+                                            font-size: 15px;">
+                                                    +
+                                                </button></span>
+
+
+                                        </li>
+                                    </ul>
+                                </div>
+                             
+                            </div>
+
                         </div>
 
                     </div>
@@ -194,6 +295,7 @@
                 <!----------------------------->
 
                 <div class="midshop col-xl-9 col-lg-6 col-md-8 col-sm-12">
+
                     <div class="all">
                         <div class="h4 mr-auto ">
                             <h4 class=" midshop "> Shop All</h4>
@@ -248,7 +350,7 @@
                             <!-- Card image -->
                             <div class="view overlay">
                                 <img class="card-img-top" src="img/cloth_1.jpg" alt="Card image cap">
-                                <a href="single.html">
+                                <a href="login.html">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
@@ -274,8 +376,8 @@
 
                             <!-- Card image -->
                             <div class="view overlay">
-                                <img class="card-img-top 1" src="img/hero_11.png" alt="Card image cap"  class="hero">
-                                <a href="single.html">
+                                <img class="card-img-top 1" src="img/hero_11.png" alt="Card image cap" class="hero">
+                                <a href="login.html">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
@@ -299,7 +401,7 @@
                             <!-- Card image -->
                             <div class="view overlay">
                                 <img class="card-img-top" src="img/cloth_2.jpg" alt="Card image cap">
-                                <a href="single.html">
+                                <a href="login.html">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
@@ -333,7 +435,7 @@
                             <!-- Card image -->
                             <div class="view overlay">
                                 <img class="card-img-top" src="img/cloth_3.jpg" alt="Card image cap">
-                                <a href="single.html">
+                                <a href="login.html">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
@@ -358,8 +460,8 @@
 
                             <!-- Card image -->
                             <div class="view overlay">
-                                <img class="card-img-top 1" src="img/hero_11.png" alt="Card image cap"  class="hero">
-                                <a href="single.html">
+                                <img class="card-img-top 1" src="img/hero_11.png" alt="Card image cap" class="hero">
+                                <a href="login.html">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
@@ -368,7 +470,7 @@
                             <div class="card-body mt-3 pt-4">
 
                                 <!-- Title -->
-                                <h4 class="card-title">Top Tank</h4>
+                                <h4 class="card-title">Corater</h4>
                                 <!-- Text -->
                                 <p class="card-text">
                                 <p class="card-text upper">Finding perfect t-shirt</p>
@@ -385,7 +487,7 @@
                             <!-- Card image -->
                             <div class="view overlay">
                                 <img class="card-img-top" src="img/cloth_1.jpg" alt="Card image cap">
-                                <a href="single.html">
+                                <a href="login.html">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
@@ -417,8 +519,8 @@
 
                             <!-- Card image -->
                             <div class="view overlay">
-                                <img class="card-img-top 1" src="img/hero_11.png" alt="Card image cap"  class="hero">
-                                <a href="single.html">
+                                <img class="card-img-top 1" src="img/hero_11.png" alt="Card image cap" class="hero">
+                                <a href="login.html">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
@@ -443,7 +545,7 @@
                             <!-- Card image -->
                             <div class="view overlay">
                                 <img class="card-img-top" src="img/cloth_2.jpg" alt="Card image cap">
-                                <a href="single.html">
+                                <a href="login.html">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
@@ -468,7 +570,7 @@
                             <!-- Card image -->
                             <div class="view overlay">
                                 <img class="card-img-top" src="img/cloth_3.jpg" alt="Card image cap">
-                                <a href="single.html">
+                                <a href="login.html">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
@@ -498,8 +600,8 @@
 
                             <!-- Card image -->
                             <div class="view overlay">
-                                <img class="card-img-top 1" src="img/hero_11.png" alt="Card image cap"  class="hero"> 
-                      <a href="single.html">
+                                <img class="card-img-top 1" src="img/hero_11.png" alt="Card image cap" class="hero">
+                                <a href="login.html">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
@@ -526,7 +628,7 @@
                             <!-- Card image -->
                             <div class="view overlay">
                                 <img class="card-img-top" src="img/cloth_1.jpg" alt="Card image cap">
-                                 <a href="single.html">
+                                <a href="login.html">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
@@ -549,7 +651,7 @@
                             <!-- Card image -->
                             <div class="view overlay">
                                 <img class="card-img-top" src="img/cloth_2.jpg" alt="Card image cap">
-                                <a href="single.html">
+                                <a href="login.html">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
                             </div>
@@ -632,7 +734,7 @@
     </section>
     <!----------------------------------END SECTION------------------------------->
 
-<!----------------------------- FOOTER---------------------------------->
+    <!----------------------------- FOOTER---------------------------------->
     <footer class="page-footer font-small pt-4">
 
         <!-- Footer Links -->
@@ -761,8 +863,8 @@
         </div>
         </div>
 
-</footer>
-<!-----------------------------END FOOTER---------------------------------->
+    </footer>
+    <!-----------------------------END FOOTER---------------------------------->
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
@@ -795,6 +897,8 @@
     <script>
         feather.replace()
     </script>
+    <script src="js/shop.js"></script>
+
 </body>
 
 </html>

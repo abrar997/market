@@ -1,0 +1,39 @@
+
+body{position: relative;}
+
+/* create log in form */
+
+.signup .container .row  .card{position: absolute;
+top: 180px;
+right: 37%;
+width: 500px;
+box-shadow: 10px 10px 12px 10px rgb(192, 190, 190);
+}
+
+
+/* background header h5 */
+.signup .container .row  .card .card-header{background-color: #7971ea !important;
+}
+
+.signup .container .row  .card .md-form {color: #7971ea;}
+
+
+/* a=link  */
+.signup .container .row  .card a {color: #7971ea;}
+
+
+.signup .container .row  .card a:hover{ color:rgb(88, 88, 88)}
+
+
+/* change properties of icons  */
+.signup .container .row  .card i{background-color: #7971ea;
+color: white;
+font-size:19px;
+border: 1px solid #7971ea;
+border-radius: 50%;
+padding: 10px;
+}
+
+.signup .container .row  .card i:hover{background-color: white;
+color: #7971ea;
+}

@@ -2,6 +2,11 @@
     font-weight:bold;
     overflow-x: hidden;
     }
+    
+       .background{
+  background-color: rgb(102, 98, 98);
+  color: white ;
+  }
     /*----------------------------HEADER-----------------*/
     header .navbar {background: transparent;
     padding: 30px;
@@ -123,23 +128,68 @@
 
     .tablecard .container .row  .card-body .table nav .pagination{ width: 140px;
     height: 40px; 
-    margin:auto;
 
     }
-    .tablecard .container .row  .card-body .table  nav  .pagination .page-item1 {border: 1px solid #7971ea;
-    border-radius: 5;
+  .tablecard .container .row  .card-body .table nav   form {
+  width: 300px;
+  text-align: center;
+  padding-top: 10px;
+}
 
-    } 
+  .tablecard .container .row  .card-body .table nav .value-button {
+  margin-top: 30px;
+  width: 130px;
+  text-transform: uppercase;
+  font-size: 12px;
+  word-spacing: 6px;
+  border:1px solid #7971ea;
+  border-radius: 2px;
+  display: inline;
+}
 
-    .tablecard .container .row  .card-body  .table nav  .pagination .page-item1 :hover {background-color: #7971ea;
+  .tablecard .container .row  .card-body .table nav  .value-button:hover {
+  cursor: pointer;
+}
 
-    }
+  .tablecard .container .row  .card-body .table nav .pagination form #decrease {
+  font-size: 19px;
+    padding: 11px;
 
+  border: 1px solid #7971ea;
+}
 
-    .tablecard .container .row  .card-body .table nav   .pagination .page-item {border-top: 1px solid rgb(238, 235, 235);
-    border-bottom: 1px solid rgb(238, 235, 235);
-    width: 40px;
-    }
+.tablecard .container .row  .card-body .table nav  form #increase {
+
+  font-size: 19px;
+  padding: 10px;
+  border: 1px solid #7971ea;
+
+}
+
+/* form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+} */
+
+  .tablecard .container .row  .card-body .table nav  input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 40px;
+  height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* .tablecard .container .row  .card-body .table nav .paginationa {color: white;} */
+  .tablecard .container .row  .card-body .table nav .pagination.custom-control .custom-control-input .custom-control-label {font-size: 15px;
+  font-weight: 900px;
+  }
 
 
     .tablecard .container .row  .card-body .table .table-remove button {background-color: #7971ea;
@@ -514,5 +564,55 @@
     }
     body{overflow-x: auto;}
     }
+
+
+
+
+    
+/* *********************************************************************************** */
+
+  /* nav top bar  */
+
+.navside .container .row .sidenav {
+  height:0;
+  width: 36%;
+  position: fixed;
+  z-index: 1;
+  top: 197px;
+  left:32%;
+  background-color: rgba(0, 0, 0, 0.336);
+  overflow-y: hidden;
+  transition: 0.5s;
+  margin: auto;
+}
+
+/* change link ( a ) properties  */
+.navside .container .row  .sidenav a {
+  text-decoration: none;
+  font-size: 18px;
+  color:white;
+  display: inline;
+  transition: 0.3s;
+padding-right: 30px;
+font-weight: 100;}
+
+
+.navside .container .row  .sidenav a:hover {
+  color: #d2d0e7;
+}
+
+/* cloesbutton in nav bar */
+.navside .container .row  .sidenav .closebtn {
+color: #dfdeee; 
+  font-size: 20px;
+}
+
+/* media query  */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
 
     /*tam walhamdu llellah*/

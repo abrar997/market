@@ -1,6 +1,10 @@
   body{font-family: 'Noto Sans JP', sans-serif;
   font-weight:bold;
   }
+     .background{
+  background-color: rgb(102, 98, 98);
+  color: white ;
+  }
   /*----------------------------HEADER-----------------*/
   header .navbar {background: transparent;
   padding: 30px;
@@ -247,7 +251,6 @@
   .page-footer .container .row .icons ul li .button {width: 80px;
   margin-left:80px;
   }
-
   }
 
   /*----------------------------------- media query from 576px to  768px----------------------------------------*/
@@ -358,4 +361,53 @@
   bottom: 23px;
   }
   }
+
+  
+/* *********************************************************************************** */
+
+
+  /* nav top bar  */
+
+.navside .container .row .sidenav {
+  height:0;
+  width: 36%;
+  position: fixed;
+  z-index: 1;
+  top: 197px;
+  left:32%;
+  background-color: rgba(0, 0, 0, 0.336);
+  overflow-y: hidden;
+  transition: 0.5s;
+  margin: auto;
+}
+
+/* change link ( a ) properties  */
+.navside .container .row  .sidenav a {
+  text-decoration: none;
+  font-size: 18px;
+  color:white;
+  display: inline;
+  transition: 0.3s;
+padding-right: 30px;
+font-weight: 100;}
+
+
+.navside .container .row  .sidenav a:hover {
+  color: #d2d0e7;
+}
+
+/* cloesbutton in nav bar */
+.navside .container .row  .sidenav .closebtn {
+color: #dfdeee; 
+  font-size: 20px;
+}
+
+/* media query  */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
   /*********************   /tam walhamdu llellah/*******************************/

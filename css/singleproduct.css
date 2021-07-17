@@ -1,3 +1,8 @@
+
+  .background{
+  background-color: rgb(102, 98, 98);
+  color: white ;
+  }
   /*----------------------------HEADER-----------------*/
   header .navbar {background: transparent;
   padding: 30px;
@@ -129,7 +134,7 @@
   word-spacing:2;
   margin-top: 30px;
   }
-  .one .container .row nav .pagination{ width: 140px;
+  /* .one .container  .row nav  .form { width: 140px;
   height: 40px;
   }
   .one .container .row nav  .pagination .page-item1 {border: 1px solid #7971ea;
@@ -159,6 +164,62 @@
   .one .textone .btn:hover{background-color: #411772 !important;
   color: white ; 
 
+  } */
+  .one .container .row  form {
+  width: 300px;
+  text-align: center;
+  padding-top: 10px;
+  }
+
+  .one .container .row .value-button {
+  margin-top: 30px;
+
+  width: 130px;
+  text-transform: uppercase;
+  font-size: 12px;
+  word-spacing: 6px;
+  border:1px solid #7971ea;
+  border-radius: 2px;
+  display: inline;
+  }
+
+  .one .container .row .value-button:hover {
+  cursor: pointer;
+  }
+
+  .one .container .row form #decrease {
+  font-size: 19px;
+  padding: 11px;
+
+  border: 1px solid #7971ea;
+  }
+
+  .one .container .row form #increase {
+
+  font-size: 19px;
+  padding: 10px;
+  border: 1px solid #7971ea;
+
+  }
+
+  /* form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+  } */
+
+  .one .container .row input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 40px;
+  height: 40px;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
   }
 
   .one a {color: white;}
@@ -498,6 +559,51 @@
   bottom: 23px;
   }
   .page-footer .container .row .icons ul li input {width: 30%;}
+  }
+
+  /* *********************************************************************************** */
+
+
+  /* nav top bar  */
+
+  .navside .container .row .sidenav {
+  height:0;
+  width: 36%;
+  position: fixed;
+  z-index: 1;
+  top: 197px;
+  left:32%;
+  background-color: rgba(0, 0, 0, 0.336);
+  overflow-y: hidden;
+  transition: 0.5s;
+  margin: auto;
+  }
+
+  /* change link ( a ) properties  */
+  .navside .container .row  .sidenav a {
+  text-decoration: none;
+  font-size: 18px;
+  color:white;
+  display: inline;
+  transition: 0.3s;
+  padding-right: 30px;
+  font-weight: 100;}
+
+
+  .navside .container .row  .sidenav a:hover {
+  color: #d2d0e7;
+  }
+
+  /* cloesbutton in nav bar */
+  .navside .container .row  .sidenav .closebtn {
+  color: #dfdeee; 
+  font-size: 20px;
+  }
+
+  /* media query  */
+  @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
   }
 
 

@@ -26,7 +26,7 @@
         <link rel="stylesheet" href="css/singleproduct.css">
 </head>
 
-<body>
+<body id="log in">
         <!----------------------------------HEADER------------------ ---------->
         <header>
                 <div class="container">
@@ -41,6 +41,12 @@
 
                                 <div class="headname ">Abrar Muthanna Rakea</div>
                                 <ul class="navbar-nav ml-auto nav-flex-icons">
+                                        <!-- change backgrund color by java script by click on lightbulb icon -->
+                                        <li><i class="fa fa-lightbulb" style="font-size: 30px;
+                                                                                    color: #9c609c;
+                                                                                    " onclick="changecolor(this)"
+                                                        id="icons"></i>
+                                        </li>
                                         <li class="nav-item">
                                                 <a class="nav-link waves-effect waves-light">
                                                         <i class="fas fa-user hvr-grow-shadow"></i>
@@ -88,6 +94,10 @@
 
                                 <!-- Links -->
                                 <ul class="navbar-nav ">
+                                        <li> <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i
+                                                                class="fas fa-ellipsis-h" style="font-size: 19px;
+                                                                     padding-top: 30px;color: #7971ea;
+                                                                            "></i> </span>
                                         <li class="nav-item active">
                                                 <a class="nav-link" href="index.html" style="color:#7971ea;">Home
                                                 </a>
@@ -113,6 +123,25 @@
                 <!--/.Navbar-->
         </article>
         <!------------------------ END NAV LINKS-------------------------------->
+
+        <!-- -------------top navbar ---------------------->
+        <section class="navside">
+                <div class="container">
+                        <div class="row">
+                                <div id="mySidenav" class="sidenav">
+                                        <!-- icon cloes nav  -->
+                                        <a href="javascript:void(0)" class="closebtn pl-3" onclick="closeNav()"><i
+                                                        class="fas fa-ellipsis-v"></i></a>
+                                        <!-- links of more information or to contact -->
+                                        <a href="#">New Products </a>
+                                        <a href="#">Rate of users </a>
+                                        <a href="#">Privacy</a>
+                                        <a href="#">Contact Us</a>
+                                </div>
+                        </div>
+                </div>
+        </section>
+        <!-- ------------------------- -->
         <!--------------------------SECTION TITLE---------------------------------->
         <section class="title">
                 <div class="container">
@@ -124,8 +153,8 @@
                 </div>
         </section>
         <!---------------------------END SECTION TITLE-------------------------->
-        <!---------------------------SECTION ONE-------------------------->
 
+        <!---------------------------SECTION ONE-------------------------->
         <section class="one">
                 <div class="container">
                         <div class="row">
@@ -179,24 +208,24 @@
                                         </div>
 
                                         <!-------------nav ---->
-                                        <nav aria-label="Page navigation example" class="mt-4">
-                                                <ul class="pagination pg-blue">
-                                                        <li class="page-item1 ">
-                                                                <a class="page-link" style="color: grey;"
-                                                                        tabindex="-1">-</a>
-                                                        </li>
-                                                        <li class="page-item"><a class="page-link">1</a></li>
-                                                        <li class="page-item1">
-                                                                <a class="page-link" tabindex="+1"
-                                                                        style="color: grey;">+</a>
-                                                        </li>
-                                                </ul>
+                                        <nav aria-label="Page navigation example" class="mt-4 mr-auto">
+                                                <form>
+                                                        <div class="value-button" id="decrease"
+                                                                onclick="decreaseValue()" value="Decrease Value">-</div>
+                                                        <input type="number" id="number" value="0" />
+                                                        <div class="value-button" id="increase"
+                                                                onclick="increaseValue()" value="Increase Value">+</div>
+                                                </form>
                                         </nav>
-                                        <a href="cart.html">
-                                                <div class="btn hvr-float-shadow" style="color: white;"> <a
-                                                                href="cart.html"> Add To Card
-                                                        </a>
-                                                </div>
+                                        <br><br>
+                                        
+                                <a href="cart.html"><div class="btn hvr-float-shadow" style="color: white !important;
+                                                background-color: #7971ea;
+                                                border-radius: 6px;margin-left: 70px;
+                                                ">
+                                                Add To Card
+                                        </div>
+                                                </a>
 
                                 </div>
                         </div>
@@ -252,8 +281,7 @@
 
                                                 <!--Card image-->
                                                 <div class="view  hero ">
-                                                        <img src="img/shoe.png" class="card-img-top" alt="photo"
-                                                            >
+                                                        <img src="img/shoe.png" class="card-img-top" alt="photo">
                                                         <a href="#">
                                                                 <div class="mask rgba-white-slight"></div>
                                                         </a>
@@ -302,11 +330,9 @@
                                 <!-- Grid column -->
                         </div>
         </section>
-
-        <!---------------------------------END SECTION TWO--------------------------->
+        <!--------------------------------END SECTION TWO--------------------------->
 
         <!--------------------------------- FOOTER --------------------------->
-
         <footer class="page-footer font-small pt-4">
 
                 <!-- Footer Links -->
@@ -376,8 +402,7 @@
 
                                 <div class="col-md-6 col-lg-3 col-xl-3.5  col-sm-6 mx-auto mt-3 texts">
                                         <h6 class="text mb-4 font-weight-bold">Promo</h6>
-                                        <img src="img/hero_1.jpg" alt="" class="col-lg-12 ml-4"
-                                               >
+                                        <img src="img/hero_1.jpg" alt="" class="col-lg-12 ml-4">
                                         <h4>
                                                 <a href="#!">finding your perfect shoes</a>
                                         </h4>
@@ -472,6 +497,10 @@
         <script>
                 feather.replace()
         </script>
+
+        <script src="js/shop.js"> </script>
+
+
 </body>
 
 </html>
