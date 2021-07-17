@@ -392,6 +392,7 @@
   height: 20px;
 
   }
+header {width: 500px;}
 
   header .navbar .form-inline .fas{font-size: 5px;
   }
@@ -435,22 +436,26 @@
 
   }
 
-  .one{margin-bottom: 0px;
-  }
 
-  .two{padding-bottom: 100px;
+  .two{padding-bottom: 150px;
 
   border-bottom: none;
 
   }
 
-  .two .container .row a{font-size: 15px;
+  .two .container .row a{font-size: 10px;
   
   }
 
-  .two .container .row P{font-size: 10px;
+  .two .container .row P{font-size: 9px;
   }
   .two .container .row{margin-bottom: 650px;}
+
+  .two .container .row .car .fas {font-size: 17px;}
+
+  .two .container .row .rota .fas {font-size: 17px;}
+
+  .two .container .row .icon .fas {font-size: 13px;}
 
   .three .container .row {margin: auto;
   display: flex;
@@ -466,7 +471,7 @@
   height: 200px;
 
   }
-
+  .three .container .row .boxthree .threetext{margin: auto;}
   .three .container .row .boxthree .threetext p{font-size: 10px;
   padding-top: 30px;
   } 
@@ -507,17 +512,17 @@
   margin-left: 200px;
   }
 
-.page-footer .container .row {margin-right: 50px;}
+  .page-footer .container .row {margin-right: 50px;}
    footer hr {display: none;}
 
   .page-footer .container .row .icons ul li  form {width:80%}
 
   .page-footer .container .row img{width: 70%;} 
   .page-footer .container .row .icons ul li .button {width: 60px;
-  margin-left:88px;
-  }
- .page-footer .container .row .icons ul li input {margin-left: 80px;}
-  }
+  margin-left:40px;
+  }}
+  /* .page-footer .container .row .icons ul li input {margin-left: 80px;}
+  } */
   /*---------------media query from 576px to 768px----------------------------------------------*/
 
   @media screen and (min-width:576px) and (max-width:768px) {
