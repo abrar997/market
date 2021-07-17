@@ -393,7 +393,7 @@
 
   }
   body{overflow-x: hidden;}
-header {width: 400px;}
+header {width: 490px;}
 
   header .navbar .form-inline .fas{font-size: 5px;
   }
@@ -480,6 +480,7 @@ header {width: 400px;}
   .three .container .row .boxthree .threetext h3{font-size: 15px;} 
 
   .four{height: 430px;}
+
   .four .container .row  {display: flex;
   flex-flow: row  ;
   justify-content: space-between;
@@ -498,7 +499,7 @@ header {width: 400px;}
   .five .container .row .bigsale{display: flex;
   flex-flow: column;
   justify-content: space-between;
-
+margin: auto;
 }
   .five .container .row   .hfive {font-size: 24px
 }
@@ -520,7 +521,7 @@ header {width: 400px;}
 
   .page-footer .container .row img{width: 70%;} 
   .page-footer .container .row .icons ul li .button {width: 60px;
-  margin-left:40px;
+  margin-left:20px;
   }}
   /* .page-footer .container .row .icons ul li input {margin-left: 80px;}
   } */
