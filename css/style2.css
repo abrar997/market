@@ -329,8 +329,8 @@
   /*-----------------------------------------------*/
   @media screen and (min-width:0px) and (max-width:575px) {
   .oneshop .container .row  .midshop .card-group .card {width: 400px;
-  height: 400px;
-
+  height: 400px;}
+.oneshop .container .row  .midshop{margin-top: 300px;
   } 
   .oneshop .container .row  .midshop .card-group .card .view .hero  img{width:100%;
   height: 400px;
@@ -341,7 +341,10 @@
   .oneshop .container .row .i  {display: none;
   }
   .oneshop .container .row .midshop .all  .buttons  .dropdown .btn {margin-right: 20px;}
-  }
+    .oneshop .container .row  .panel ul li p{display: block;
+    margin-top: 30px;}
+
+}
 
   /*---------------------------------------------*/
 
@@ -753,9 +756,9 @@
   font-size: 20px;
   }
 
-  @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-  }
 
-
+  @media screen and (min-width:0px) and (max-width:575px){ 
+    .navside .container .row .sidenav {height: 300px;
+    display: flex;
+    flex-flow: column;
+    }}

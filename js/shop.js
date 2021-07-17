@@ -53,7 +53,7 @@ function formerrors() {
 
     }
     else if (password.length != 8) {
-        text = " password consist equal to 8 numbers";
+        text = " password must equal 8 numbers";
         error.innerHTML = text;
 
         return false;
