@@ -503,15 +503,15 @@ margin: auto;
 }
   .five .container .row   .hfive {font-size: 24px
 }
-  .five .container .row .bigsale .imgsale img{width: 70%;
-  margin-left: 80px;}
+  .five .container .row .bigsale .imgsale img{width: 80%;
+  margin-left: 30px;}
 
   .five .container .row .bigsale .textsale h2 {font-size: 22px;}
   .five .container .row .bigsale .textsale .upper{font-size: 14px;}
   .five .container .row .bigsale .textsale .lower{font-size: 12px;}
   .five .container .row .bigsale .textsale .btn{padding: 5px;
   width: 90px;
-  margin-left: 200px;
+  margin-left: 160px;
   }
 
   .page-footer .container .row {margin-right: 50px;}
@@ -521,7 +521,7 @@ margin: auto;
 
   .page-footer .container .row img{width: 70%;} 
   .page-footer .container .row .icons ul li .button {width: 60px;
-  margin-left:20px;
+  margin-left:0px;
   }}
   /* .page-footer .container .row .icons ul li input {margin-left: 80px;}
   } */
